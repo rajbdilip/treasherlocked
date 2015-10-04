@@ -1,0 +1,35 @@
+table {
+	width: 100%;
+	border-collapse: collapse;
+	letter-spacing: 1px;
+	border-radius: 5px;
+}
+
+table tbody tr:nth-child(even) {
+	background: #b5f2d8;
+}
+
+table thead tr {
+	background: #16a085;
+	color: #fff;
+	border-radius: 10px;
+}
+
+table thead tr th {
+	font-weight: 600;
+	padding: 6px 0;
+	margin-bottom: 10px;
+}
+
+table td {
+	padding: 4px 0;
+}
+
+table td:first-child, 
+table td:last-child, 
+table th:first-child,
+table th:last-child {
+	text-align: center;
+}
+
+table td {}

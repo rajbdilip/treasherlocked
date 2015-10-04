@@ -1,0 +1,148 @@
+.social {
+	max-width:  380px;
+	margin:  0px auto;
+	text-align: center;
+	letter-spacing: 0.1em;
+}
+
+a.btn-login {
+	display: block;
+	margin-bottom: 10px;
+}
+
+a.btn-social {
+	position: relative;
+	padding-left: 44px;
+	text-align: left;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	text-decoration: none;
+	color: #fff;
+	margin-bottom: 10px;
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: 500;
+}
+
+.btn-social > :first-child {
+	position: absolute;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	width: 32px;
+	line-height: 34px;
+	font-size: 1.6em;
+	text-align: center;
+	border-right: 1px solid rgba(0,0,0,0.2)
+}
+
+.btn-social.btn-lg {
+	padding-left: 61px
+}
+
+.btn-social.btn-lg :first-child {
+	width: 40px;
+	height: 40px;
+	line-height: 45px;
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 1.8em;
+}
+
+.btn-facebook {
+	color: #fff;
+	background-color: #3b5998;
+	border-color: rgba(0,0,0,0.2);
+}
+.btn-facebook:hover,
+.btn-facebook:focus,
+.btn-facebook:active {
+	color: #fff;
+	background-color: #2d4373;
+	border-color: rgba(0,0,0,0.2);
+}
+
+.btn-facebook:active {
+	background-image: none
+}
+
+.btn-google-plus {
+	color: #fff;
+	background-color: #dd4b39;
+	border-color: rgba(0,0,0,0.2);
+}
+.btn-google-plus:hover,
+.btn-google-plus:focus,
+.btn-google-plus:active {
+	color: #fff;
+	background-color: #c23321;
+	border-color: rgba(0,0,0,0.2);
+}
+
+.btn-google-plus:active {
+	background-image: none;
+}
+
+.btn-twitter {
+	color: #fff;
+	background-color: #55acee;
+	border-color: rgba(0,0,0,0.2);
+}
+
+.btn-twitter:hover,
+.btn-twitter:focus,
+.btn-twitter:active {
+	color: #fff;
+	background-color: #2795e9;
+	border-color: rgba(0,0,0,0.2);
+}
+
+.btn-twitter:active {
+	background-image: none;
+}
+
+.btn-ts {
+	color: #fff;
+	background-color: #16a085;
+	border-color: rgba(0,0,0,0.2)
+}
+
+.btn-ts:hover,
+.btn-ts:focus,
+.btn-ts:active {
+	color: #fff;
+	background-color: #169085;
+	border-color: rgba(0,0,0,0.2);
+}
+
+.btn-ts:active {
+	background-image: none;
+}
+
+.treasherlocked {
+	font-weight: 500;
+	border: 1px solid #16a085;
+	border-radius: 10px;
+	padding: 5px 20px 15px 20px;
+}
+
+.social .no-display {
+	display: none;
+}
+
+.social p.error {
+	display: none;
+	color: #ff0033;
+	margin-top: -5px;
+}
+
+.social p.spaced {
+	padding-top: 20px;
+}
+
+.social p.error span {
+	font-weight: 500;
+	font-style: italic;
+}
+

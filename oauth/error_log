@@ -1,0 +1,2 @@
+[08-Nov-2014 09:03:55 UTC] PHP Warning:  require_once(/home/treasherlocked/public_htmlconfig/consts.php): failed to open stream: No such file or directory in /home/treasherlocked/public_html/oauth/index.php on line 6
+[08-Nov-2014 09:03:55 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/treasherlocked/public_htmlconfig/consts.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/treasherlocked/public_html/oauth/index.php on line 6
