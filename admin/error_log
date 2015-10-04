@@ -1,0 +1,17 @@
+[08-Nov-2014 07:05:09 UTC] PHP Warning:  require(config/consts.php): failed to open stream: No such file or directory in /home/treasherlocked/public_html/admin/index.php on line 2
+[08-Nov-2014 07:05:09 UTC] PHP Fatal error:  require(): Failed opening required 'config/consts.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/treasherlocked/public_html/admin/index.php on line 2
+[08-Nov-2014 12:35:51 Asia/Calcutta] PHP Warning:  require(includes/html/header.php): failed to open stream: No such file or directory in /home/treasherlocked/public_html/admin/index.php on line 47
+[08-Nov-2014 12:35:51 Asia/Calcutta] PHP Fatal error:  require(): Failed opening required 'includes/html/header.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/treasherlocked/public_html/admin/index.php on line 47
+[08-Nov-2014 12:36:52 Asia/Calcutta] PHP Warning:  require(includes/html/footer.php): failed to open stream: No such file or directory in /home/treasherlocked/public_html/admin/index.php on line 76
+[08-Nov-2014 12:36:52 Asia/Calcutta] PHP Fatal error:  require(): Failed opening required 'includes/html/footer.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/treasherlocked/public_html/admin/index.php on line 76
+[08-Nov-2014 12:37:31 Asia/Calcutta] PHP Warning:  require(includes/html/tracking.php): failed to open stream: No such file or directory in /home/treasherlocked/public_html/admin/index.php on line 92
+[08-Nov-2014 12:37:31 Asia/Calcutta] PHP Fatal error:  require(): Failed opening required 'includes/html/tracking.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/treasherlocked/public_html/admin/index.php on line 92
+[08-Nov-2014 12:38:43 Asia/Calcutta] PHP Warning:  require(includes/html/tracking.php): failed to open stream: No such file or directory in /home/treasherlocked/public_html/admin/index.php on line 92
+[08-Nov-2014 12:38:43 Asia/Calcutta] PHP Fatal error:  require(): Failed opening required 'includes/html/tracking.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/treasherlocked/public_html/admin/index.php on line 92
+[08-Nov-2014 12:48:35 Asia/Calcutta] PHP Fatal error:  Allowed memory size of 5242880 bytes exhausted (tried to allocate 1 bytes) in /home/treasherlocked/public_html/classes/Database.php on line 750
+[08-Nov-2014 07:25:03 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/treasherlocked/public_html/admin/users.php on line 13
+[08-Nov-2014 12:55:20 Asia/Calcutta] PHP Warning:  mysqli_connect(): (42000/1044): Access denied for user 'treasher_locked'@'localhost' to database 'DATABSE' in /home/treasherlocked/public_html/admin/users.php on line 9
+[08-Nov-2014 12:55:20 Asia/Calcutta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/treasherlocked/public_html/admin/users.php on line 11
+[08-Nov-2014 12:55:20 Asia/Calcutta] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/treasherlocked/public_html/admin/users.php on line 14
+[08-Nov-2014 07:32:08 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/treasherlocked/public_html/admin/users.php on line 35
+[08-Nov-2014 07:34:47 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/treasherlocked/public_html/admin/users.php on line 41

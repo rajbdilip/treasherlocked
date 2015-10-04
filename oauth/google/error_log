@@ -1,0 +1,445 @@
+[07-Nov-2014 20:09:44 Asia/Calcutta] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'rajbdilip'@'localhost' (using password: YES) in /home/treasherlocked/public_html/classes/Database.php on line 140
+[07-Nov-2014 20:09:44 Asia/Calcutta] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home/treasherlocked/public_html/classes/Database.php on line 143
+[07-Nov-2014 20:09:44 Asia/Calcutta] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/treasherlocked/public_html/classes/Database.php:140) in /home/treasherlocked/public_html/oauth/google/login.php on line 7
+[07-Nov-2014 20:09:45 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/treasherlocked/public_html/classes/Database.php:140) in /home/treasherlocked/public_html/oauth/google/login.php on line 44
+[07-Nov-2014 20:09:48 Asia/Calcutta] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'rajbdilip'@'localhost' (using password: YES) in /home/treasherlocked/public_html/classes/Database.php on line 140
+[07-Nov-2014 20:09:48 Asia/Calcutta] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home/treasherlocked/public_html/classes/Database.php on line 143
+[07-Nov-2014 20:09:48 Asia/Calcutta] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/treasherlocked/public_html/classes/Database.php:140) in /home/treasherlocked/public_html/oauth/google/login.php on line 7
+[07-Nov-2014 20:09:50 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/treasherlocked/public_html/classes/Database.php:140) in /home/treasherlocked/public_html/oauth/google/login.php on line 44
+[07-Nov-2014 20:09:54 Asia/Calcutta] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'rajbdilip'@'localhost' (using password: YES) in /home/treasherlocked/public_html/classes/Database.php on line 140
+[07-Nov-2014 20:09:54 Asia/Calcutta] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home/treasherlocked/public_html/classes/Database.php on line 143
+[07-Nov-2014 20:09:54 Asia/Calcutta] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/treasherlocked/public_html/classes/Database.php:140) in /home/treasherlocked/public_html/oauth/google/login.php on line 7
+[07-Nov-2014 20:09:54 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'Google_Auth_Exception' with message 'Error fetching OAuth2 access token, message: 'invalid_grant'' in /home/treasherlocked/public_html/oauth/google/Google/Auth/OAuth2.php:124
+Stack trace:
+#0 /home/treasherlocked/public_html/oauth/google/Google/Client.php(135): Google_Auth_OAuth2->authenticate('4/HE1Ofjh7AuxYd...')
+#1 /home/treasherlocked/public_html/oauth/google/Google/Google.php(25): Google_Client->authenticate('4/HE1Ofjh7AuxYd...')
+#2 /home/treasherlocked/public_html/oauth/google/login.php(41): Google->authenticate('4/HE1Ofjh7AuxYd...')
+#3 {main}
+  thrown in /home/treasherlocked/public_html/oauth/google/Google/Auth/OAuth2.php on line 124
+[07-Nov-2014 20:10:16 Asia/Calcutta] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'rajbdilip'@'localhost' (using password: YES) in /home/treasherlocked/public_html/classes/Database.php on line 140
+[07-Nov-2014 20:10:16 Asia/Calcutta] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home/treasherlocked/public_html/classes/Database.php on line 143
+[07-Nov-2014 20:10:16 Asia/Calcutta] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/treasherlocked/public_html/classes/Database.php:140) in /home/treasherlocked/public_html/oauth/google/login.php on line 7
+[07-Nov-2014 20:10:19 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/treasherlocked/public_html/classes/Database.php:140) in /home/treasherlocked/public_html/oauth/google/login.php on line 44
+[07-Nov-2014 20:11:12 Asia/Calcutta] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'rajbdilip'@'localhost' (using password: YES) in /home/treasherlocked/public_html/classes/Database.php on line 140
+[07-Nov-2014 20:11:12 Asia/Calcutta] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home/treasherlocked/public_html/classes/Database.php on line 143
+[07-Nov-2014 20:11:12 Asia/Calcutta] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/treasherlocked/public_html/classes/Database.php:140) in /home/treasherlocked/public_html/oauth/google/login.php on line 7
+[07-Nov-2014 20:11:13 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/treasherlocked/public_html/classes/Database.php:140) in /home/treasherlocked/public_html/oauth/google/login.php on line 44
+[07-Nov-2014 20:11:20 Asia/Calcutta] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'rajbdilip'@'localhost' (using password: YES) in /home/treasherlocked/public_html/classes/Database.php on line 140
+[07-Nov-2014 20:11:20 Asia/Calcutta] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home/treasherlocked/public_html/classes/Database.php on line 143
+[07-Nov-2014 20:11:20 Asia/Calcutta] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/treasherlocked/public_html/classes/Database.php:140) in /home/treasherlocked/public_html/oauth/google/login.php on line 7
+[07-Nov-2014 20:11:20 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'Google_Auth_Exception' with message 'Error fetching OAuth2 access token, message: 'invalid_grant'' in /home/treasherlocked/public_html/oauth/google/Google/Auth/OAuth2.php:124
+Stack trace:
+#0 /home/treasherlocked/public_html/oauth/google/Google/Client.php(135): Google_Auth_OAuth2->authenticate('4/qq9IajsPFYPgF...')
+#1 /home/treasherlocked/public_html/oauth/google/Google/Google.php(25): Google_Client->authenticate('4/qq9IajsPFYPgF...')
+#2 /home/treasherlocked/public_html/oauth/google/login.php(41): Google->authenticate('4/qq9IajsPFYPgF...')
+#3 {main}
+  thrown in /home/treasherlocked/public_html/oauth/google/Google/Auth/OAuth2.php on line 124
+[07-Nov-2014 20:11:23 Asia/Calcutta] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'rajbdilip'@'localhost' (using password: YES) in /home/treasherlocked/public_html/classes/Database.php on line 140
+[07-Nov-2014 20:11:23 Asia/Calcutta] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home/treasherlocked/public_html/classes/Database.php on line 143
+[07-Nov-2014 20:11:23 Asia/Calcutta] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/treasherlocked/public_html/classes/Database.php:140) in /home/treasherlocked/public_html/oauth/google/login.php on line 7
+[07-Nov-2014 20:11:23 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'Google_Auth_Exception' with message 'Error fetching OAuth2 access token, message: 'invalid_grant'' in /home/treasherlocked/public_html/oauth/google/Google/Auth/OAuth2.php:124
+Stack trace:
+#0 /home/treasherlocked/public_html/oauth/google/Google/Client.php(135): Google_Auth_OAuth2->authenticate('4/qq9IajsPFYPgF...')
+#1 /home/treasherlocked/public_html/oauth/google/Google/Google.php(25): Google_Client->authenticate('4/qq9IajsPFYPgF...')
+#2 /home/treasherlocked/public_html/oauth/google/login.php(41): Google->authenticate('4/qq9IajsPFYPgF...')
+#3 {main}
+  thrown in /home/treasherlocked/public_html/oauth/google/Google/Auth/OAuth2.php on line 124
+[07-Nov-2014 20:11:25 Asia/Calcutta] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'rajbdilip'@'localhost' (using password: YES) in /home/treasherlocked/public_html/classes/Database.php on line 140
+[07-Nov-2014 20:11:25 Asia/Calcutta] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home/treasherlocked/public_html/classes/Database.php on line 143
+[07-Nov-2014 20:11:25 Asia/Calcutta] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/treasherlocked/public_html/classes/Database.php:140) in /home/treasherlocked/public_html/oauth/google/login.php on line 7
+[07-Nov-2014 20:11:27 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/treasherlocked/public_html/classes/Database.php:140) in /home/treasherlocked/public_html/oauth/google/login.php on line 44
+[07-Nov-2014 20:11:39 Asia/Calcutta] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'rajbdilip'@'localhost' (using password: YES) in /home/treasherlocked/public_html/classes/Database.php on line 140
+[07-Nov-2014 20:11:39 Asia/Calcutta] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home/treasherlocked/public_html/classes/Database.php on line 143
+[07-Nov-2014 20:11:39 Asia/Calcutta] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/treasherlocked/public_html/classes/Database.php:140) in /home/treasherlocked/public_html/oauth/google/login.php on line 7
+[07-Nov-2014 20:11:41 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/treasherlocked/public_html/classes/Database.php:140) in /home/treasherlocked/public_html/oauth/google/login.php on line 44
+[07-Nov-2014 20:11:45 Asia/Calcutta] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'rajbdilip'@'localhost' (using password: YES) in /home/treasherlocked/public_html/classes/Database.php on line 140
+[07-Nov-2014 20:11:45 Asia/Calcutta] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home/treasherlocked/public_html/classes/Database.php on line 143
+[07-Nov-2014 20:11:45 Asia/Calcutta] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/treasherlocked/public_html/classes/Database.php:140) in /home/treasherlocked/public_html/oauth/google/login.php on line 7
+[07-Nov-2014 20:11:46 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/treasherlocked/public_html/classes/Database.php:140) in /home/treasherlocked/public_html/oauth/google/login.php on line 44
+[07-Nov-2014 20:19:22 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'Google_Auth_Exception' with message 'Error fetching OAuth2 access token, message: 'invalid_grant'' in /home/treasherlocked/public_html/oauth/google/Google/Auth/OAuth2.php:124
+Stack trace:
+#0 /home/treasherlocked/public_html/oauth/google/Google/Client.php(135): Google_Auth_OAuth2->authenticate('4/mnKzyBRfDjefG...')
+#1 /home/treasherlocked/public_html/oauth/google/Google/Google.php(25): Google_Client->authenticate('4/mnKzyBRfDjefG...')
+#2 /home/treasherlocked/public_html/oauth/google/login.php(41): Google->authenticate('4/mnKzyBRfDjefG...')
+#3 {main}
+  thrown in /home/treasherlocked/public_html/oauth/google/Google/Auth/OAuth2.php on line 124
+[07-Nov-2014 20:26:28 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'Google_Auth_Exception' with message 'Error fetching OAuth2 access token, message: 'invalid_grant'' in /home/treasherlocked/public_html/oauth/google/Google/Auth/OAuth2.php:124
+Stack trace:
+#0 /home/treasherlocked/public_html/oauth/google/Google/Client.php(135): Google_Auth_OAuth2->authenticate('4/W0MH6U6crce1y...')
+#1 /home/treasherlocked/public_html/oauth/google/Google/Google.php(25): Google_Client->authenticate('4/W0MH6U6crce1y...')
+#2 /home/treasherlocked/public_html/oauth/google/login.php(41): Google->authenticate('4/W0MH6U6crce1y...')
+#3 {main}
+  thrown in /home/treasherlocked/public_html/oauth/google/Google/Auth/OAuth2.php on line 124
+[07-Nov-2014 20:38:41 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'Google_Auth_Exception' with message 'Error fetching OAuth2 access token, message: 'invalid_grant'' in /home/treasherlocked/public_html/oauth/google/Google/Auth/OAuth2.php:124
+Stack trace:
+#0 /home/treasherlocked/public_html/oauth/google/Google/Client.php(135): Google_Auth_OAuth2->authenticate('4/9rHxhPCLcOHNF...')
+#1 /home/treasherlocked/public_html/oauth/google/Google/Google.php(25): Google_Client->authenticate('4/9rHxhPCLcOHNF...')
+#2 /home/treasherlocked/public_html/oauth/google/login.php(41): Google->authenticate('4/9rHxhPCLcOHNF...')
+#3 {main}
+  thrown in /home/treasherlocked/public_html/oauth/google/Google/Auth/OAuth2.php on line 124
+[07-Nov-2014 20:40:56 Asia/Calcutta] PHP Parse error:  syntax error, unexpected '<' in /home/treasherlocked/public_html/includes/html/tracking.php on line 2
+[07-Nov-2014 20:40:57 Asia/Calcutta] PHP Parse error:  syntax error, unexpected '<' in /home/treasherlocked/public_html/includes/html/tracking.php on line 2
+[07-Nov-2014 20:44:04 Asia/Calcutta] PHP Parse error:  syntax error, unexpected '<' in /home/treasherlocked/public_html/includes/html/tracking.php on line 2
+[07-Nov-2014 20:44:35 Asia/Calcutta] PHP Parse error:  syntax error, unexpected '<' in /home/treasherlocked/public_html/includes/html/tracking.php on line 2
+[07-Nov-2014 20:44:37 Asia/Calcutta] PHP Parse error:  syntax error, unexpected '<' in /home/treasherlocked/public_html/includes/html/tracking.php on line 2
+[07-Nov-2014 21:02:26 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'Google_Auth_Exception' with message 'Error fetching OAuth2 access token, message: 'invalid_grant'' in /home/treasherlocked/public_html/oauth/google/Google/Auth/OAuth2.php:124
+Stack trace:
+#0 /home/treasherlocked/public_html/oauth/google/Google/Client.php(135): Google_Auth_OAuth2->authenticate('4/PnXzRC5fn_VQL...')
+#1 /home/treasherlocked/public_html/oauth/google/Google/Google.php(25): Google_Client->authenticate('4/PnXzRC5fn_VQL...')
+#2 /home/treasherlocked/public_html/oauth/google/login.php(41): Google->authenticate('4/PnXzRC5fn_VQL...')
+#3 {main}
+  thrown in /home/treasherlocked/public_html/oauth/google/Google/Auth/OAuth2.php on line 124
+[07-Nov-2014 21:06:26 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'Google_Auth_Exception' with message 'Error fetching OAuth2 access token, message: 'invalid_grant'' in /home/treasherlocked/public_html/oauth/google/Google/Auth/OAuth2.php:124
+Stack trace:
+#0 /home/treasherlocked/public_html/oauth/google/Google/Client.php(135): Google_Auth_OAuth2->authenticate('4/sq9GS1hBFu0c1...')
+#1 /home/treasherlocked/public_html/oauth/google/Google/Google.php(25): Google_Client->authenticate('4/sq9GS1hBFu0c1...')
+#2 /home/treasherlocked/public_html/oauth/google/login.php(41): Google->authenticate('4/sq9GS1hBFu0c1...')
+#3 {main}
+  thrown in /home/treasherlocked/public_html/oauth/google/Google/Auth/OAuth2.php on line 124
+[07-Nov-2014 21:09:23 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'Google_Auth_Exception' with message 'Error fetching OAuth2 access token, message: 'invalid_grant'' in /home/treasherlocked/public_html/oauth/google/Google/Auth/OAuth2.php:124
+Stack trace:
+#0 /home/treasherlocked/public_html/oauth/google/Google/Client.php(135): Google_Auth_OAuth2->authenticate('4/CCbWAGmmUiuZh...')
+#1 /home/treasherlocked/public_html/oauth/google/Google/Google.php(25): Google_Client->authenticate('4/CCbWAGmmUiuZh...')
+#2 /home/treasherlocked/public_html/oauth/google/login.php(41): Google->authenticate('4/CCbWAGmmUiuZh...')
+#3 {main}
+  thrown in /home/treasherlocked/public_html/oauth/google/Google/Auth/OAuth2.php on line 124
+[07-Nov-2014 21:10:17 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'Google_Auth_Exception' with message 'Error fetching OAuth2 access token, message: 'invalid_grant'' in /home/treasherlocked/public_html/oauth/google/Google/Auth/OAuth2.php:124
+Stack trace:
+#0 /home/treasherlocked/public_html/oauth/google/Google/Client.php(135): Google_Auth_OAuth2->authenticate('4/3CAo2BhDJcHWu...')
+#1 /home/treasherlocked/public_html/oauth/google/Google/Google.php(25): Google_Client->authenticate('4/3CAo2BhDJcHWu...')
+#2 /home/treasherlocked/public_html/oauth/google/login.php(41): Google->authenticate('4/3CAo2BhDJcHWu...')
+#3 {main}
+  thrown in /home/treasherlocked/public_html/oauth/google/Google/Auth/OAuth2.php on line 124
+[07-Nov-2014 21:11:29 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'Google_Auth_Exception' with message 'Error fetching OAuth2 access token, message: 'invalid_grant'' in /home/treasherlocked/public_html/oauth/google/Google/Auth/OAuth2.php:124
+Stack trace:
+#0 /home/treasherlocked/public_html/oauth/google/Google/Client.php(135): Google_Auth_OAuth2->authenticate('4/CCOukkiLx1ezy...')
+#1 /home/treasherlocked/public_html/oauth/google/Google/Google.php(25): Google_Client->authenticate('4/CCOukkiLx1ezy...')
+#2 /home/treasherlocked/public_html/oauth/google/login.php(41): Google->authenticate('4/CCOukkiLx1ezy...')
+#3 {main}
+  thrown in /home/treasherlocked/public_html/oauth/google/Google/Auth/OAuth2.php on line 124
+[07-Nov-2014 21:12:08 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'Google_Auth_Exception' with message 'Error fetching OAuth2 access token, message: 'invalid_grant'' in /home/treasherlocked/public_html/oauth/google/Google/Auth/OAuth2.php:124
+Stack trace:
+#0 /home/treasherlocked/public_html/oauth/google/Google/Client.php(135): Google_Auth_OAuth2->authenticate('4/wpuY9lvDvjlcv...')
+#1 /home/treasherlocked/public_html/oauth/google/Google/Google.php(25): Google_Client->authenticate('4/wpuY9lvDvjlcv...')
+#2 /home/treasherlocked/public_html/oauth/google/login.php(41): Google->authenticate('4/wpuY9lvDvjlcv...')
+#3 {main}
+  thrown in /home/treasherlocked/public_html/oauth/google/Google/Auth/OAuth2.php on line 124
+[07-Nov-2014 21:12:22 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'Google_Auth_Exception' with message 'Error fetching OAuth2 access token, message: 'invalid_grant'' in /home/treasherlocked/public_html/oauth/google/Google/Auth/OAuth2.php:124
+Stack trace:
+#0 /home/treasherlocked/public_html/oauth/google/Google/Client.php(135): Google_Auth_OAuth2->authenticate('4/WQWNIliWbYeI1...')
+#1 /home/treasherlocked/public_html/oauth/google/Google/Google.php(25): Google_Client->authenticate('4/WQWNIliWbYeI1...')
+#2 /home/treasherlocked/public_html/oauth/google/login.php(41): Google->authenticate('4/WQWNIliWbYeI1...')
+#3 {main}
+  thrown in /home/treasherlocked/public_html/oauth/google/Google/Auth/OAuth2.php on line 124
+[07-Nov-2014 21:13:42 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'Google_Auth_Exception' with message 'Error fetching OAuth2 access token, message: ''' in /home/treasherlocked/public_html/oauth/google/Google/Auth/OAuth2.php:124
+Stack trace:
+#0 /home/treasherlocked/public_html/oauth/google/Google/Client.php(135): Google_Auth_OAuth2->authenticate('4/_xD7UbXFcr0dH...')
+#1 /home/treasherlocked/public_html/oauth/google/Google/Google.php(25): Google_Client->authenticate('4/_xD7UbXFcr0dH...')
+#2 /home/treasherlocked/public_html/oauth/google/login.php(41): Google->authenticate('4/_xD7UbXFcr0dH...')
+#3 {main}
+  thrown in /home/treasherlocked/public_html/oauth/google/Google/Auth/OAuth2.php on line 124
+[07-Nov-2014 21:23:33 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'Google_Auth_Exception' with message 'Error fetching OAuth2 access token, message: 'invalid_grant'' in /home/treasherlocked/public_html/oauth/google/Google/Auth/OAuth2.php:124
+Stack trace:
+#0 /home/treasherlocked/public_html/oauth/google/Google/Client.php(135): Google_Auth_OAuth2->authenticate('4/xmr39m1YEm3e-...')
+#1 /home/treasherlocked/public_html/oauth/google/Google/Google.php(25): Google_Client->authenticate('4/xmr39m1YEm3e-...')
+#2 /home/treasherlocked/public_html/oauth/google/login.php(41): Google->authenticate('4/xmr39m1YEm3e-...')
+#3 {main}
+  thrown in /home/treasherlocked/public_html/oauth/google/Google/Auth/OAuth2.php on line 124
+[07-Nov-2014 21:31:25 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'Google_Auth_Exception' with message 'Error fetching OAuth2 access token, message: ''' in /home/treasherlocked/public_html/oauth/google/Google/Auth/OAuth2.php:124
+Stack trace:
+#0 /home/treasherlocked/public_html/oauth/google/Google/Client.php(135): Google_Auth_OAuth2->authenticate('4/PBxAXMC-q_bkJ...')
+#1 /home/treasherlocked/public_html/oauth/google/Google/Google.php(25): Google_Client->authenticate('4/PBxAXMC-q_bkJ...')
+#2 /home/treasherlocked/public_html/oauth/google/login.php(41): Google->authenticate('4/PBxAXMC-q_bkJ...')
+#3 {main}
+  thrown in /home/treasherlocked/public_html/oauth/google/Google/Auth/OAuth2.php on line 124
+[07-Nov-2014 21:33:21 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'Google_Auth_Exception' with message 'Error fetching OAuth2 access token, message: 'invalid_grant'' in /home/treasherlocked/public_html/oauth/google/Google/Auth/OAuth2.php:124
+Stack trace:
+#0 /home/treasherlocked/public_html/oauth/google/Google/Client.php(135): Google_Auth_OAuth2->authenticate('4/7DswSFyQ1HV6_...')
+#1 /home/treasherlocked/public_html/oauth/google/Google/Google.php(25): Google_Client->authenticate('4/7DswSFyQ1HV6_...')
+#2 /home/treasherlocked/public_html/oauth/google/login.php(41): Google->authenticate('4/7DswSFyQ1HV6_...')
+#3 {main}
+  thrown in /home/treasherlocked/public_html/oauth/google/Google/Auth/OAuth2.php on line 124
+[07-Nov-2014 21:39:13 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'Google_Auth_Exception' with message 'Error fetching OAuth2 access token, message: 'invalid_grant'' in /home/treasherlocked/public_html/oauth/google/Google/Auth/OAuth2.php:124
+Stack trace:
+#0 /home/treasherlocked/public_html/oauth/google/Google/Client.php(135): Google_Auth_OAuth2->authenticate('4/qwvyTnPONdi7T...')
+#1 /home/treasherlocked/public_html/oauth/google/Google/Google.php(25): Google_Client->authenticate('4/qwvyTnPONdi7T...')
+#2 /home/treasherlocked/public_html/oauth/google/login.php(41): Google->authenticate('4/qwvyTnPONdi7T...')
+#3 {main}
+  thrown in /home/treasherlocked/public_html/oauth/google/Google/Auth/OAuth2.php on line 124
+[07-Nov-2014 21:48:25 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'Google_Auth_Exception' with message 'Error fetching OAuth2 access token, message: 'invalid_grant'' in /home/treasherlocked/public_html/oauth/google/Google/Auth/OAuth2.php:124
+Stack trace:
+#0 /home/treasherlocked/public_html/oauth/google/Google/Client.php(135): Google_Auth_OAuth2->authenticate('4/7jIMyW3aIkAdI...')
+#1 /home/treasherlocked/public_html/oauth/google/Google/Google.php(25): Google_Client->authenticate('4/7jIMyW3aIkAdI...')
+#2 /home/treasherlocked/public_html/oauth/google/login.php(41): Google->authenticate('4/7jIMyW3aIkAdI...')
+#3 {main}
+  thrown in /home/treasherlocked/public_html/oauth/google/Google/Auth/OAuth2.php on line 124
+[07-Nov-2014 21:51:22 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'Google_Auth_Exception' with message 'Error fetching OAuth2 access token, message: 'invalid_grant'' in /home/treasherlocked/public_html/oauth/google/Google/Auth/OAuth2.php:124
+Stack trace:
+#0 /home/treasherlocked/public_html/oauth/google/Google/Client.php(135): Google_Auth_OAuth2->authenticate('4/Os9b-KjWmjoBx...')
+#1 /home/treasherlocked/public_html/oauth/google/Google/Google.php(25): Google_Client->authenticate('4/Os9b-KjWmjoBx...')
+#2 /home/treasherlocked/public_html/oauth/google/login.php(41): Google->authenticate('4/Os9b-KjWmjoBx...')
+#3 {main}
+  thrown in /home/treasherlocked/public_html/oauth/google/Google/Auth/OAuth2.php on line 124
+[07-Nov-2014 21:54:20 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'Google_Auth_Exception' with message 'Error fetching OAuth2 access token, message: 'invalid_grant'' in /home/treasherlocked/public_html/oauth/google/Google/Auth/OAuth2.php:124
+Stack trace:
+#0 /home/treasherlocked/public_html/oauth/google/Google/Client.php(135): Google_Auth_OAuth2->authenticate('4/dfX7auzgJmcC3...')
+#1 /home/treasherlocked/public_html/oauth/google/Google/Google.php(25): Google_Client->authenticate('4/dfX7auzgJmcC3...')
+#2 /home/treasherlocked/public_html/oauth/google/login.php(41): Google->authenticate('4/dfX7auzgJmcC3...')
+#3 {main}
+  thrown in /home/treasherlocked/public_html/oauth/google/Google/Auth/OAuth2.php on line 124
+[07-Nov-2014 22:16:30 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'Google_Auth_Exception' with message 'Error fetching OAuth2 access token, message: 'invalid_grant'' in /home/treasherlocked/public_html/oauth/google/Google/Auth/OAuth2.php:124
+Stack trace:
+#0 /home/treasherlocked/public_html/oauth/google/Google/Client.php(135): Google_Auth_OAuth2->authenticate('4/9b1uFqLm6E7wP...')
+#1 /home/treasherlocked/public_html/oauth/google/Google/Google.php(25): Google_Client->authenticate('4/9b1uFqLm6E7wP...')
+#2 /home/treasherlocked/public_html/oauth/google/login.php(41): Google->authenticate('4/9b1uFqLm6E7wP...')
+#3 {main}
+  thrown in /home/treasherlocked/public_html/oauth/google/Google/Auth/OAuth2.php on line 124
+[07-Nov-2014 22:30:35 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'Google_Auth_Exception' with message 'Error fetching OAuth2 access token, message: ''' in /home/treasherlocked/public_html/oauth/google/Google/Auth/OAuth2.php:124
+Stack trace:
+#0 /home/treasherlocked/public_html/oauth/google/Google/Client.php(135): Google_Auth_OAuth2->authenticate('4/0TDbkVkC66XbG...')
+#1 /home/treasherlocked/public_html/oauth/google/Google/Google.php(25): Google_Client->authenticate('4/0TDbkVkC66XbG...')
+#2 /home/treasherlocked/public_html/oauth/google/login.php(41): Google->authenticate('4/0TDbkVkC66XbG...')
+#3 {main}
+  thrown in /home/treasherlocked/public_html/oauth/google/Google/Auth/OAuth2.php on line 124
+[07-Nov-2014 23:34:17 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'Google_Auth_Exception' with message 'Error fetching OAuth2 access token, message: 'invalid_grant'' in /home/treasherlocked/public_html/oauth/google/Google/Auth/OAuth2.php:124
+Stack trace:
+#0 /home/treasherlocked/public_html/oauth/google/Google/Client.php(135): Google_Auth_OAuth2->authenticate('4/wM0OO7cPYr-ae...')
+#1 /home/treasherlocked/public_html/oauth/google/Google/Google.php(25): Google_Client->authenticate('4/wM0OO7cPYr-ae...')
+#2 /home/treasherlocked/public_html/oauth/google/login.php(41): Google->authenticate('4/wM0OO7cPYr-ae...')
+#3 {main}
+  thrown in /home/treasherlocked/public_html/oauth/google/Google/Auth/OAuth2.php on line 124
+[07-Nov-2014 23:48:18 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'Google_Auth_Exception' with message 'Error fetching OAuth2 access token, message: 'invalid_grant'' in /home/treasherlocked/public_html/oauth/google/Google/Auth/OAuth2.php:124
+Stack trace:
+#0 /home/treasherlocked/public_html/oauth/google/Google/Client.php(135): Google_Auth_OAuth2->authenticate('4/WBqDJ96mHQJss...')
+#1 /home/treasherlocked/public_html/oauth/google/Google/Google.php(25): Google_Client->authenticate('4/WBqDJ96mHQJss...')
+#2 /home/treasherlocked/public_html/oauth/google/login.php(41): Google->authenticate('4/WBqDJ96mHQJss...')
+#3 {main}
+  thrown in /home/treasherlocked/public_html/oauth/google/Google/Auth/OAuth2.php on line 124
+[08-Nov-2014 00:15:20 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'Google_Auth_Exception' with message 'Error fetching OAuth2 access token, message: 'invalid_grant'' in /home/treasherlocked/public_html/oauth/google/Google/Auth/OAuth2.php:124
+Stack trace:
+#0 /home/treasherlocked/public_html/oauth/google/Google/Client.php(135): Google_Auth_OAuth2->authenticate('4/Z471ofTKiIetD...')
+#1 /home/treasherlocked/public_html/oauth/google/Google/Google.php(25): Google_Client->authenticate('4/Z471ofTKiIetD...')
+#2 /home/treasherlocked/public_html/oauth/google/login.php(41): Google->authenticate('4/Z471ofTKiIetD...')
+#3 {main}
+  thrown in /home/treasherlocked/public_html/oauth/google/Google/Auth/OAuth2.php on line 124
+[08-Nov-2014 00:16:10 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'Google_Auth_Exception' with message 'Error fetching OAuth2 access token, message: 'invalid_grant'' in /home/treasherlocked/public_html/oauth/google/Google/Auth/OAuth2.php:124
+Stack trace:
+#0 /home/treasherlocked/public_html/oauth/google/Google/Client.php(135): Google_Auth_OAuth2->authenticate('4/oUpU7ud3Pj166...')
+#1 /home/treasherlocked/public_html/oauth/google/Google/Google.php(25): Google_Client->authenticate('4/oUpU7ud3Pj166...')
+#2 /home/treasherlocked/public_html/oauth/google/login.php(41): Google->authenticate('4/oUpU7ud3Pj166...')
+#3 {main}
+  thrown in /home/treasherlocked/public_html/oauth/google/Google/Auth/OAuth2.php on line 124
+[08-Nov-2014 01:51:06 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'Google_Auth_Exception' with message 'Error fetching OAuth2 access token, message: ''' in /home/treasherlocked/public_html/oauth/google/Google/Auth/OAuth2.php:124
+Stack trace:
+#0 /home/treasherlocked/public_html/oauth/google/Google/Client.php(135): Google_Auth_OAuth2->authenticate('4/V6Iu1ZfHxEMMl...')
+#1 /home/treasherlocked/public_html/oauth/google/Google/Google.php(25): Google_Client->authenticate('4/V6Iu1ZfHxEMMl...')
+#2 /home/treasherlocked/public_html/oauth/google/login.php(41): Google->authenticate('4/V6Iu1ZfHxEMMl...')
+#3 {main}
+  thrown in /home/treasherlocked/public_html/oauth/google/Google/Auth/OAuth2.php on line 124
+[08-Nov-2014 02:10:05 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'Google_Auth_Exception' with message 'Error fetching OAuth2 access token, message: ''' in /home/treasherlocked/public_html/oauth/google/Google/Auth/OAuth2.php:124
+Stack trace:
+#0 /home/treasherlocked/public_html/oauth/google/Google/Client.php(135): Google_Auth_OAuth2->authenticate('4/T9QTR9CZe5sZ-...')
+#1 /home/treasherlocked/public_html/oauth/google/Google/Google.php(25): Google_Client->authenticate('4/T9QTR9CZe5sZ-...')
+#2 /home/treasherlocked/public_html/oauth/google/login.php(41): Google->authenticate('4/T9QTR9CZe5sZ-...')
+#3 {main}
+  thrown in /home/treasherlocked/public_html/oauth/google/Google/Auth/OAuth2.php on line 124
+[08-Nov-2014 10:06:06 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'Google_Auth_Exception' with message 'Error fetching OAuth2 access token, message: ''' in /home/treasherlocked/public_html/oauth/google/Google/Auth/OAuth2.php:124
+Stack trace:
+#0 /home/treasherlocked/public_html/oauth/google/Google/Client.php(135): Google_Auth_OAuth2->authenticate('4/ntjikmy32-B6D...')
+#1 /home/treasherlocked/public_html/oauth/google/Google/Google.php(25): Google_Client->authenticate('4/ntjikmy32-B6D...')
+#2 /home/treasherlocked/public_html/oauth/google/login.php(41): Google->authenticate('4/ntjikmy32-B6D...')
+#3 {main}
+  thrown in /home/treasherlocked/public_html/oauth/google/Google/Auth/OAuth2.php on line 124
+[08-Nov-2014 12:13:03 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'Google_Auth_Exception' with message 'Error fetching OAuth2 access token, message: 'invalid_grant'' in /home/treasherlocked/public_html/oauth/google/Google/Auth/OAuth2.php:124
+Stack trace:
+#0 /home/treasherlocked/public_html/oauth/google/Google/Client.php(135): Google_Auth_OAuth2->authenticate('4/er-crRwZRWzIg...')
+#1 /home/treasherlocked/public_html/oauth/google/Google/Google.php(25): Google_Client->authenticate('4/er-crRwZRWzIg...')
+#2 /home/treasherlocked/public_html/oauth/google/login.php(41): Google->authenticate('4/er-crRwZRWzIg...')
+#3 {main}
+  thrown in /home/treasherlocked/public_html/oauth/google/Google/Auth/OAuth2.php on line 124
+[08-Nov-2014 12:53:13 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'Google_Auth_Exception' with message 'Error fetching OAuth2 access token, message: 'invalid_grant'' in /home/treasherlocked/public_html/oauth/google/Google/Auth/OAuth2.php:124
+Stack trace:
+#0 /home/treasherlocked/public_html/oauth/google/Google/Client.php(135): Google_Auth_OAuth2->authenticate('4/_Ne9SnLMZUIpF...')
+#1 /home/treasherlocked/public_html/oauth/google/Google/Google.php(25): Google_Client->authenticate('4/_Ne9SnLMZUIpF...')
+#2 /home/treasherlocked/public_html/oauth/google/login.php(41): Google->authenticate('4/_Ne9SnLMZUIpF...')
+#3 {main}
+  thrown in /home/treasherlocked/public_html/oauth/google/Google/Auth/OAuth2.php on line 124
+[08-Nov-2014 14:10:08 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'Google_Auth_Exception' with message 'Error fetching OAuth2 access token, message: 'invalid_grant'' in /home/treasherlocked/public_html/oauth/google/Google/Auth/OAuth2.php:124
+Stack trace:
+#0 /home/treasherlocked/public_html/oauth/google/Google/Client.php(135): Google_Auth_OAuth2->authenticate('4/njxBcgr2GKW2k...')
+#1 /home/treasherlocked/public_html/oauth/google/Google/Google.php(25): Google_Client->authenticate('4/njxBcgr2GKW2k...')
+#2 /home/treasherlocked/public_html/oauth/google/login.php(41): Google->authenticate('4/njxBcgr2GKW2k...')
+#3 {main}
+  thrown in /home/treasherlocked/public_html/oauth/google/Google/Auth/OAuth2.php on line 124
+[08-Nov-2014 14:35:33 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'Google_Auth_Exception' with message 'Error fetching OAuth2 access token, message: 'internal_failure'' in /home/treasherlocked/public_html/oauth/google/Google/Auth/OAuth2.php:124
+Stack trace:
+#0 /home/treasherlocked/public_html/oauth/google/Google/Client.php(135): Google_Auth_OAuth2->authenticate('4/GyfDM1QUB9eqA...')
+#1 /home/treasherlocked/public_html/oauth/google/Google/Google.php(25): Google_Client->authenticate('4/GyfDM1QUB9eqA...')
+#2 /home/treasherlocked/public_html/oauth/google/login.php(41): Google->authenticate('4/GyfDM1QUB9eqA...')
+#3 {main}
+  thrown in /home/treasherlocked/public_html/oauth/google/Google/Auth/OAuth2.php on line 124
+[08-Nov-2014 14:35:49 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'Google_Auth_Exception' with message 'Error fetching OAuth2 access token, message: 'internal_failure'' in /home/treasherlocked/public_html/oauth/google/Google/Auth/OAuth2.php:124
+Stack trace:
+#0 /home/treasherlocked/public_html/oauth/google/Google/Client.php(135): Google_Auth_OAuth2->authenticate('4/pBnvJNqOZ0wsp...')
+#1 /home/treasherlocked/public_html/oauth/google/Google/Google.php(25): Google_Client->authenticate('4/pBnvJNqOZ0wsp...')
+#2 /home/treasherlocked/public_html/oauth/google/login.php(41): Google->authenticate('4/pBnvJNqOZ0wsp...')
+#3 {main}
+  thrown in /home/treasherlocked/public_html/oauth/google/Google/Auth/OAuth2.php on line 124
+[08-Nov-2014 14:35:52 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'Google_Auth_Exception' with message 'Error fetching OAuth2 access token, message: 'invalid_grant'' in /home/treasherlocked/public_html/oauth/google/Google/Auth/OAuth2.php:124
+Stack trace:
+#0 /home/treasherlocked/public_html/oauth/google/Google/Client.php(135): Google_Auth_OAuth2->authenticate('4/pBnvJNqOZ0wsp...')
+#1 /home/treasherlocked/public_html/oauth/google/Google/Google.php(25): Google_Client->authenticate('4/pBnvJNqOZ0wsp...')
+#2 /home/treasherlocked/public_html/oauth/google/login.php(41): Google->authenticate('4/pBnvJNqOZ0wsp...')
+#3 {main}
+  thrown in /home/treasherlocked/public_html/oauth/google/Google/Auth/OAuth2.php on line 124
+[08-Nov-2014 14:42:15 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'Google_Auth_Exception' with message 'Error fetching OAuth2 access token, message: 'invalid_grant'' in /home/treasherlocked/public_html/oauth/google/Google/Auth/OAuth2.php:124
+Stack trace:
+#0 /home/treasherlocked/public_html/oauth/google/Google/Client.php(135): Google_Auth_OAuth2->authenticate('4/KCUFQjg3-JMkp...')
+#1 /home/treasherlocked/public_html/oauth/google/Google/Google.php(25): Google_Client->authenticate('4/KCUFQjg3-JMkp...')
+#2 /home/treasherlocked/public_html/oauth/google/login.php(41): Google->authenticate('4/KCUFQjg3-JMkp...')
+#3 {main}
+  thrown in /home/treasherlocked/public_html/oauth/google/Google/Auth/OAuth2.php on line 124
+[08-Nov-2014 16:03:23 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'Google_Auth_Exception' with message 'Error fetching OAuth2 access token, message: 'invalid_grant'' in /home/treasherlocked/public_html/oauth/google/Google/Auth/OAuth2.php:124
+Stack trace:
+#0 /home/treasherlocked/public_html/oauth/google/Google/Client.php(135): Google_Auth_OAuth2->authenticate('4/ntjikmy32-B6D...')
+#1 /home/treasherlocked/public_html/oauth/google/Google/Google.php(25): Google_Client->authenticate('4/ntjikmy32-B6D...')
+#2 /home/treasherlocked/public_html/oauth/google/login.php(41): Google->authenticate('4/ntjikmy32-B6D...')
+#3 {main}
+  thrown in /home/treasherlocked/public_html/oauth/google/Google/Auth/OAuth2.php on line 124
+[08-Nov-2014 18:05:03 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'Google_Auth_Exception' with message 'Error fetching OAuth2 access token, message: 'invalid_grant'' in /home/treasherlocked/public_html/oauth/google/Google/Auth/OAuth2.php:124
+Stack trace:
+#0 /home/treasherlocked/public_html/oauth/google/Google/Client.php(135): Google_Auth_OAuth2->authenticate('4/hmvSR0QG7NsJL...')
+#1 /home/treasherlocked/public_html/oauth/google/Google/Google.php(25): Google_Client->authenticate('4/hmvSR0QG7NsJL...')
+#2 /home/treasherlocked/public_html/oauth/google/login.php(41): Google->authenticate('4/hmvSR0QG7NsJL...')
+#3 {main}
+  thrown in /home/treasherlocked/public_html/oauth/google/Google/Auth/OAuth2.php on line 124
+[08-Nov-2014 18:24:07 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'Google_Auth_Exception' with message 'Error fetching OAuth2 access token, message: 'invalid_grant'' in /home/treasherlocked/public_html/oauth/google/Google/Auth/OAuth2.php:124
+Stack trace:
+#0 /home/treasherlocked/public_html/oauth/google/Google/Client.php(135): Google_Auth_OAuth2->authenticate('4/iw70x22ngF3s_...')
+#1 /home/treasherlocked/public_html/oauth/google/Google/Google.php(25): Google_Client->authenticate('4/iw70x22ngF3s_...')
+#2 /home/treasherlocked/public_html/oauth/google/login.php(41): Google->authenticate('4/iw70x22ngF3s_...')
+#3 {main}
+  thrown in /home/treasherlocked/public_html/oauth/google/Google/Auth/OAuth2.php on line 124
+[08-Nov-2014 18:31:37 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'Google_Auth_Exception' with message 'Error fetching OAuth2 access token, message: 'internal_failure'' in /home/treasherlocked/public_html/oauth/google/Google/Auth/OAuth2.php:124
+Stack trace:
+#0 /home/treasherlocked/public_html/oauth/google/Google/Client.php(135): Google_Auth_OAuth2->authenticate('4/yVeDl9Wodr53z...')
+#1 /home/treasherlocked/public_html/oauth/google/Google/Google.php(25): Google_Client->authenticate('4/yVeDl9Wodr53z...')
+#2 /home/treasherlocked/public_html/oauth/google/login.php(41): Google->authenticate('4/yVeDl9Wodr53z...')
+#3 {main}
+  thrown in /home/treasherlocked/public_html/oauth/google/Google/Auth/OAuth2.php on line 124
+[08-Nov-2014 18:48:11 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'Google_Auth_Exception' with message 'Error fetching OAuth2 access token, message: 'invalid_grant'' in /home/treasherlocked/public_html/oauth/google/Google/Auth/OAuth2.php:124
+Stack trace:
+#0 /home/treasherlocked/public_html/oauth/google/Google/Client.php(135): Google_Auth_OAuth2->authenticate('4/ERsNoCQNxopx9...')
+#1 /home/treasherlocked/public_html/oauth/google/Google/Google.php(25): Google_Client->authenticate('4/ERsNoCQNxopx9...')
+#2 /home/treasherlocked/public_html/oauth/google/login.php(41): Google->authenticate('4/ERsNoCQNxopx9...')
+#3 {main}
+  thrown in /home/treasherlocked/public_html/oauth/google/Google/Auth/OAuth2.php on line 124
+[08-Nov-2014 20:43:11 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'Google_Auth_Exception' with message 'Error fetching OAuth2 access token, message: 'invalid_grant'' in /home/treasherlocked/public_html/oauth/google/Google/Auth/OAuth2.php:124
+Stack trace:
+#0 /home/treasherlocked/public_html/oauth/google/Google/Client.php(135): Google_Auth_OAuth2->authenticate('4/oA_3wt9iJR46d...')
+#1 /home/treasherlocked/public_html/oauth/google/Google/Google.php(25): Google_Client->authenticate('4/oA_3wt9iJR46d...')
+#2 /home/treasherlocked/public_html/oauth/google/login.php(41): Google->authenticate('4/oA_3wt9iJR46d...')
+#3 {main}
+  thrown in /home/treasherlocked/public_html/oauth/google/Google/Auth/OAuth2.php on line 124
+[08-Nov-2014 21:45:28 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'Google_Auth_Exception' with message 'Error fetching OAuth2 access token, message: 'invalid_grant'' in /home/treasherlocked/public_html/oauth/google/Google/Auth/OAuth2.php:124
+Stack trace:
+#0 /home/treasherlocked/public_html/oauth/google/Google/Client.php(135): Google_Auth_OAuth2->authenticate('4/RZSBw2fUWFgpT...')
+#1 /home/treasherlocked/public_html/oauth/google/Google/Google.php(25): Google_Client->authenticate('4/RZSBw2fUWFgpT...')
+#2 /home/treasherlocked/public_html/oauth/google/login.php(41): Google->authenticate('4/RZSBw2fUWFgpT...')
+#3 {main}
+  thrown in /home/treasherlocked/public_html/oauth/google/Google/Auth/OAuth2.php on line 124
+[08-Nov-2014 23:52:28 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'Google_Auth_Exception' with message 'Error fetching OAuth2 access token, message: ''' in /home/treasherlocked/public_html/oauth/google/Google/Auth/OAuth2.php:124
+Stack trace:
+#0 /home/treasherlocked/public_html/oauth/google/Google/Client.php(135): Google_Auth_OAuth2->authenticate('4/zuMdk2AQQA0dX...')
+#1 /home/treasherlocked/public_html/oauth/google/Google/Google.php(25): Google_Client->authenticate('4/zuMdk2AQQA0dX...')
+#2 /home/treasherlocked/public_html/oauth/google/login.php(41): Google->authenticate('4/zuMdk2AQQA0dX...')
+#3 {main}
+  thrown in /home/treasherlocked/public_html/oauth/google/Google/Auth/OAuth2.php on line 124
+[09-Nov-2014 01:50:34 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'Google_Auth_Exception' with message 'Error fetching OAuth2 access token, message: ''' in /home/treasherlocked/public_html/oauth/google/Google/Auth/OAuth2.php:124
+Stack trace:
+#0 /home/treasherlocked/public_html/oauth/google/Google/Client.php(135): Google_Auth_OAuth2->authenticate('4/yJ4hiEmbN7W-k...')
+#1 /home/treasherlocked/public_html/oauth/google/Google/Google.php(25): Google_Client->authenticate('4/yJ4hiEmbN7W-k...')
+#2 /home/treasherlocked/public_html/oauth/google/login.php(41): Google->authenticate('4/yJ4hiEmbN7W-k...')
+#3 {main}
+  thrown in /home/treasherlocked/public_html/oauth/google/Google/Auth/OAuth2.php on line 124
+[09-Nov-2014 11:07:39 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'Google_Service_Exception' with message 'Error calling GET https://www.googleapis.com/oauth2/v2/userinfo: (500) Internal Error' in /home/treasherlocked/public_html/oauth/google/Google/Http/REST.php:79
+Stack trace:
+#0 /home/treasherlocked/public_html/oauth/google/Google/Http/REST.php(44): Google_Http_REST::decodeHttpResponse(Object(Google_Http_Request))
+#1 /home/treasherlocked/public_html/oauth/google/Google/Client.php(499): Google_Http_REST::execute(Object(Google_Client), Object(Google_Http_Request))
+#2 /home/treasherlocked/public_html/oauth/google/Google/Service/Resource.php(195): Google_Client->execute(Object(Google_Http_Request))
+#3 /home/treasherlocked/public_html/oauth/google/Google/Service/Oauth2.php(152): Google_Service_Resource->call('get', Array, 'Google_Service_...')
+#4 /home/treasherlocked/public_html/oauth/google/Google/Google.php(49): Google_Service_Oauth2_Userinfo_Resource->get()
+#5 /home/treasherlocked/public_html/oauth/google/login.php(53): Google->getUserProfile()
+#6 {main} in /home/treasherlocked/public_html/oauth/google/Google/Http/REST.php on line 79
+[09-Nov-2014 11:08:30 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'Google_Service_Exception' with message 'Error calling GET https://www.googleapis.com/oauth2/v2/userinfo: (500) {
+ "error": {
+  "code": 500,
+  "message": null
+ }
+}
+' in /home/treasherlocked/public_html/oauth/google/Google/Http/REST.php:79
+Stack trace:
+#0 /home/treasherlocked/public_html/oauth/google/Google/Http/REST.php(44): Google_Http_REST::decodeHttpResponse(Object(Google_Http_Request))
+#1 /home/treasherlocked/public_html/oauth/google/Google/Client.php(499): Google_Http_REST::execute(Object(Google_Client), Object(Google_Http_Request))
+#2 /home/treasherlocked/public_html/oauth/google/Google/Service/Resource.php(195): Google_Client->execute(Object(Google_Http_Request))
+#3 /home/treasherlocked/public_html/oauth/google/Google/Service/Oauth2.php(152): Google_Service_Resource->call('get', Array, 'Google_Service_...')
+#4 /home/treasherlocked/public_html/oauth/google/Google/Google.php(49): Google_Service_Oauth2_Userinfo_Resource->get()
+#5 /home/treasherlocked/public_html/oauth/google/login.php(5 in /home/treasherlocked/public_html/oauth/google/Google/Http/REST.php on line 79
+[09-Nov-2014 14:06:14 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'Google_Auth_Exception' with message 'Error fetching OAuth2 access token, message: 'invalid_grant'' in /home/treasherlocked/public_html/oauth/google/Google/Auth/OAuth2.php:124
+Stack trace:
+#0 /home/treasherlocked/public_html/oauth/google/Google/Client.php(135): Google_Auth_OAuth2->authenticate('4/JpZLfrMxWe0OW...')
+#1 /home/treasherlocked/public_html/oauth/google/Google/Google.php(25): Google_Client->authenticate('4/JpZLfrMxWe0OW...')
+#2 /home/treasherlocked/public_html/oauth/google/login.php(41): Google->authenticate('4/JpZLfrMxWe0OW...')
+#3 {main}
+  thrown in /home/treasherlocked/public_html/oauth/google/Google/Auth/OAuth2.php on line 124
+[09-Nov-2014 14:49:46 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'Google_Service_Exception' with message 'Error calling GET https://www.googleapis.com/oauth2/v2/userinfo: (500) {
+ "error": {
+  "code": 500,
+  "message": null
+ }
+}
+' in /home/treasherlocked/public_html/oauth/google/Google/Http/REST.php:79
+Stack trace:
+#0 /home/treasherlocked/public_html/oauth/google/Google/Http/REST.php(44): Google_Http_REST::decodeHttpResponse(Object(Google_Http_Request))
+#1 /home/treasherlocked/public_html/oauth/google/Google/Client.php(499): Google_Http_REST::execute(Object(Google_Client), Object(Google_Http_Request))
+#2 /home/treasherlocked/public_html/oauth/google/Google/Service/Resource.php(195): Google_Client->execute(Object(Google_Http_Request))
+#3 /home/treasherlocked/public_html/oauth/google/Google/Service/Oauth2.php(152): Google_Service_Resource->call('get', Array, 'Google_Service_...')
+#4 /home/treasherlocked/public_html/oauth/google/Google/Google.php(49): Google_Service_Oauth2_Userinfo_Resource->get()
+#5 /home/treasherlocked/public_html/oauth/google/login.php(5 in /home/treasherlocked/public_html/oauth/google/Google/Http/REST.php on line 79
+[09-Nov-2014 14:55:07 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'Google_Auth_Exception' with message 'Error fetching OAuth2 access token, message: 'invalid_grant'' in /home/treasherlocked/public_html/oauth/google/Google/Auth/OAuth2.php:124
+Stack trace:
+#0 /home/treasherlocked/public_html/oauth/google/Google/Client.php(135): Google_Auth_OAuth2->authenticate('4/zqkUslv_XNUQj...')
+#1 /home/treasherlocked/public_html/oauth/google/Google/Google.php(25): Google_Client->authenticate('4/zqkUslv_XNUQj...')
+#2 /home/treasherlocked/public_html/oauth/google/login.php(41): Google->authenticate('4/zqkUslv_XNUQj...')
+#3 {main}
+  thrown in /home/treasherlocked/public_html/oauth/google/Google/Auth/OAuth2.php on line 124
+[09-Nov-2014 14:58:06 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'Google_Auth_Exception' with message 'Error fetching OAuth2 access token, message: 'invalid_grant'' in /home/treasherlocked/public_html/oauth/google/Google/Auth/OAuth2.php:124
+Stack trace:
+#0 /home/treasherlocked/public_html/oauth/google/Google/Client.php(135): Google_Auth_OAuth2->authenticate('4/PB6QwmxhXTCEk...')
+#1 /home/treasherlocked/public_html/oauth/google/Google/Google.php(25): Google_Client->authenticate('4/PB6QwmxhXTCEk...')
+#2 /home/treasherlocked/public_html/oauth/google/login.php(41): Google->authenticate('4/PB6QwmxhXTCEk...')
+#3 {main}
+  thrown in /home/treasherlocked/public_html/oauth/google/Google/Auth/OAuth2.php on line 124
+[09-Nov-2014 23:31:10 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'Google_Auth_Exception' with message 'Error fetching OAuth2 access token, message: ''' in /home/treasherlocked/public_html/oauth/google/Google/Auth/OAuth2.php:124
+Stack trace:
+#0 /home/treasherlocked/public_html/oauth/google/Google/Client.php(135): Google_Auth_OAuth2->authenticate('4/4S8sNYn6aOMtZ...')
+#1 /home/treasherlocked/public_html/oauth/google/Google/Google.php(25): Google_Client->authenticate('4/4S8sNYn6aOMtZ...')
+#2 /home/treasherlocked/public_html/oauth/google/login.php(41): Google->authenticate('4/4S8sNYn6aOMtZ...')
+#3 {main}
+  thrown in /home/treasherlocked/public_html/oauth/google/Google/Auth/OAuth2.php on line 124
+[10-Nov-2014 22:35:34 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'Google_Service_Exception' with message 'Error calling GET https://www.googleapis.com/oauth2/v2/userinfo: (500) Internal Error' in /home/treasherlocked/public_html/oauth/google/Google/Http/REST.php:79
+Stack trace:
+#0 /home/treasherlocked/public_html/oauth/google/Google/Http/REST.php(44): Google_Http_REST::decodeHttpResponse(Object(Google_Http_Request))
+#1 /home/treasherlocked/public_html/oauth/google/Google/Client.php(499): Google_Http_REST::execute(Object(Google_Client), Object(Google_Http_Request))
+#2 /home/treasherlocked/public_html/oauth/google/Google/Service/Resource.php(195): Google_Client->execute(Object(Google_Http_Request))
+#3 /home/treasherlocked/public_html/oauth/google/Google/Service/Oauth2.php(152): Google_Service_Resource->call('get', Array, 'Google_Service_...')
+#4 /home/treasherlocked/public_html/oauth/google/Google/Google.php(49): Google_Service_Oauth2_Userinfo_Resource->get()
+#5 /home/treasherlocked/public_html/oauth/google/login.php(53): Google->getUserProfile()
+#6 {main} in /home/treasherlocked/public_html/oauth/google/Google/Http/REST.php on line 79
+[17-Nov-2014 00:05:19 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'Google_Auth_Exception' with message 'Error fetching OAuth2 access token, message: 'invalid_grant'' in /home/treasherlocked/public_html/oauth/google/Google/Auth/OAuth2.php:124
+Stack trace:
+#0 /home/treasherlocked/public_html/oauth/google/Google/Client.php(135): Google_Auth_OAuth2->authenticate('4/FHlX7qLaW23m-...')
+#1 /home/treasherlocked/public_html/oauth/google/Google/Google.php(25): Google_Client->authenticate('4/FHlX7qLaW23m-...')
+#2 /home/treasherlocked/public_html/oauth/google/login.php(41): Google->authenticate('4/FHlX7qLaW23m-...')
+#3 {main}
+  thrown in /home/treasherlocked/public_html/oauth/google/Google/Auth/OAuth2.php on line 124

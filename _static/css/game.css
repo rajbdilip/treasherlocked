@@ -1,0 +1,141 @@
+* {
+	//outline: 1px solid;
+}
+
+.page { background-color: #25282f; }
+
+.box {
+	background-color: #f3f5f8;
+	border: 1px solid #212329;
+	border-radius: 10px;
+	padding: 3%;
+}
+
+.no-padding { padding: 10px; }
+
+.box h1 { text-align: center; }
+
+.box.question-box {
+	text-align: center;
+}
+
+.box img {
+	display: inline-block;
+	text-align: center;
+	max-width: 100%;
+}
+
+.box audio {
+	display: block;
+	margin: 10px auto;
+}
+
+.box.status {
+	padding: 0;
+	position: relative;
+	overflow: hidden;
+}
+
+.leaderboard.rank h3 {
+	margin-top: 0;
+	margin-bottom: 0;
+	text-transform: none;
+}
+
+.info { 
+	position: relative;
+	padding-left: 3%;
+	padding-right: 3%;
+	height: 40px;
+	z-index: 1;
+}
+
+.info .level, .info .rank {
+	line-height: 40px;
+	display: inline-block;
+	font-size: 16px;
+	font-weight: 500;
+}
+
+.info .level { float: left; }
+.info .rank { float: right; }
+
+.progress-bar {
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	height: 40px;
+	background-color: transparent;
+	z-index: 0;
+}
+
+.progress-bar .progress {
+	width: 100%;
+	min-width: 1%;
+	height: 40px;
+	background-color: #16a085;//#b5f2d8;
+	border-radius: 0;
+}
+
+.result {
+	display: none;
+	text-align: center;
+}
+
+.result h1 { font-size: 50px; }
+.result h3 { color: #5f6061; }
+
+.wrong-ans h1 { color: #ff0033; }
+
+.answer-box {
+	height: 100%;
+	overflow: hidden;
+	text-align: center;
+}
+
+.answer-box input.text {
+	display: inline-block;
+	width: 85%;
+	margin: 0;
+}
+
+.answer-box .btn {
+	margin: 0 0 0 10px;
+	display: inline-block;
+}
+
+.leaderboard {
+	max-width: 600px;
+	margin: 0 auto;
+}
+
+.leaderboard a {
+	display: block;
+	text-decoration: underline;
+	text-align: center;
+}
+
+/**** Disqus ****/
+#disqus {
+	display: block;
+	max-width: 600px;
+	margin: 0 auto;
+}
+/**** /Disqus ****/
+
+/****  Facebok Like Box ****/
+.text-center {
+	text-align: center;
+}
+
+.fb-like-box {
+	display: inline-block;
+	border: 1px solid #16a085;
+	border-radius: 5px;
+	margin: 10px 10px;
+	max-width: 100%;
+}
+/**** /Faebook Like Box ****/

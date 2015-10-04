@@ -1,0 +1,24 @@
+@charset "utf-8";
+@font-face{font-family:'Raleway';
+	font-style: normal;
+	font-weight: 400;
+	src:local('Raleway'), local('Raleway'), url('fonts/raleway400.woff') format('woff');
+}
+
+@font-face{font-family:'Raleway';
+	font-style:normal;
+	font-weight:500;
+	src:local('Raleway Medium'), local('Raleway-Medium'), url('fonts/raleway500.woff') format('woff');
+}
+
+@font-face{font-family:'Raleway';
+	font-style:normal;
+	font-weight:600;
+	src:local('Raleway SemiBold'), local('Raleway-SemiBold'), url('fonts/raleway600.woff') format('woff');
+}
+
+@font-face{font-family:'Raleway';
+	font-style:normal;
+	font-weight:700;
+	src:local('Raleway Bold'), local('Raleway-Bold'), url('fonts/raleway700.woff') format('woff');
+}

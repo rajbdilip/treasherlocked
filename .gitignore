@@ -1,0 +1,36 @@
+# Windows image file caches
+Thumbs.db
+ethumbs.db
+
+# Folder and other config file
+*.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Notepad++ Backup files
+*.bak1
+
+# Windows shortcuts
+*.lnk
+
+# Photoshop file ( Used for logo and images )
+*.psd
+
+# Others
+_DS.Store
+
+# Uploaded images
+back-end/uploads/
+
+# Test files and folders
+*test*
+
+# Unix text editor temp files
+*~

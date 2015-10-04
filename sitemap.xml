@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+<url>
+  <loc>http://www.treasherlocked.in/</loc>
+  <changefreq>daily</changefreq>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>http://www.treasherlocked.in/about/</loc>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.treasherlocked.in/how-to-play/</loc>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.treasherlocked.in/rules/</loc>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.treasherlocked.in/hints/</loc>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.treasherlocked.in/privacy/</loc>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>
+</url>
+</urlset>
