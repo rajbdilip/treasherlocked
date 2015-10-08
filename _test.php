@@ -4,6 +4,8 @@ require( 'config/consts.php' );
 require( 'config/db.php' );
 require( 'classes/LoginHelper.php' );
 
+var_dump($_POST);
+
 $string = "hello...world's first\" program";
 
 echo preg_replace( '/[\s\.\'\",]+/i', '', $string );
