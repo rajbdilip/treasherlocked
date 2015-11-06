@@ -5,10 +5,10 @@ Options +FollowSymLinks -Multiviews -Indexes
 	RewriteEngine On
 
 	RewriteCond %{HTTP_HOST} ^treasherlocked.com
-	RewriteRule (.*) http://www.treasherlocked.com/$1 [R=301,L]
+	RewriteRule (.*) http://localhost/tsl3/$1 [R=301,L]
 	
 	RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /index\.php\ HTTP/
-	RewriteRule ^index\.php$ http://www.treasherlocked.com/ [R=301,L]
+	RewriteRule ^index\.php$ http://localhost/tsl3/ [R=301,L]
 	
 	# Add trailing slash to the URIs
 	RewriteCond %{REQUEST_URI} /+[^\.]+$

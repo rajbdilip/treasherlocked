@@ -1,6 +1,6 @@
 "use strict";
 
-var site_url = 'http://www.treasherlocked.com/';
+var site_url = 'http://localhost/tsl3/';
 
 /*************************************/
 /* Ready Function */
