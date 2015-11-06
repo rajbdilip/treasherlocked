@@ -60,7 +60,15 @@
 			<h2 class="wow animated fadeInDown" data-wow-duration="1s" data-wow-delay="1s">because the hunt is on</h2>
 			<hr id="title_hr" />
 			<p class="wow animated fadeInUp" data-wow-duration="1s" data-wow-delay="1s">6-8 November 2015</p>
+			<!--<?php if($loggedIn && $event_status==EVENT_STARTED){?>
+			<a class="btn-effect wow animated fadeIn" data-wow-duration="0.5s" data-wow-delay="1.5s" data-scroll href="<?php echo SITE_URL . 'play/'; ?>">Play Now</a>
+			<?php } ?>-->
+			<?php if($loggedIn /*&& $event_status==EVENT_NOT_STARTED*/){?>
+			<a class="btn-effect wow animated fadeIn" data-wow-duration="0.5s" data-wow-delay="1.5s" data-scroll href="<?php echo SITE_URL . 'about/'; ?>">Learn More</a>
+			<?php }?>
+			<?php if(!$loggedIn){?>
 			<a class="btn-effect wow animated fadeIn" data-wow-duration="0.5s" data-wow-delay="1.5s" data-scroll href="<?php echo SITE_URL . 'signup/'; ?>">Register Now</a>
+			<?php }?>
 		</div>
 	</section>
 	
