@@ -7,12 +7,6 @@
 	require_once( DOCUMENT_ROOT . 'config/db.php' );
 	require(DOCUMENT_ROOT . 'includes/html/add_question.php');
 	
-	$loginHelper = new LoginHelper( $db );
-	if ( $loginHelper->IsLoggedIn() ) {
-		header( 'Location: ' . SITE_URL );
-		exit;
-	}
-	
 	/*	Prevent form spoofing */
 	$spoof_proof = sha1( time() . chr( mt_rand( 97, 122 ) ) );
 	$_SESSION['spoof_proof'] = $spoof_proof;
@@ -75,7 +69,7 @@
 							</div>
 							<div class="form-group">
 								<div class="col-md-5">
-									<input id="answer" class="form-control" name="answer" type="password" maxlength="40" placeholder="Answer" required />
+									<input id="answer" class="form-control" name="answer" type="text" maxlength="40" placeholder="Answer" required />
 								</div>
 							</div>
 							<div class="form-group">
