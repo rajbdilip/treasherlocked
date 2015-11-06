@@ -1,5 +1,5 @@
 <?php
-require( $_SERVER['DOCUMENT_ROOT'] . '/ts2/config/consts.php' );
+require( '../../config/consts.php' );
 require( DOCUMENT_ROOT . 'config/db.php' );
 require( DOCUMENT_ROOT . 'classes/LoginHelper.php' );
 require( DOCUMENT_ROOT . 'classes/Registrar.php' );
@@ -45,21 +45,24 @@ if ( $twitter->IsAuthenticated() ) {
 	
 		// User is registered 
 		// TWITTER user needs to have their email verfieid
-		if ( $loginHelper->IsVerified( $user_id ) ) {
+		/*if ( $loginHelper->IsVerified( $user_id ) ) {
 			$redirect_uri = $loginHelper->Login( $user_id, OAUTH_TWITTER, $twitter_user->id );
 			header( "Location: $redirect_uri" );
 		} else {
 			$not_verified = true;
-			/* 	Keeping `access token` alive generates login URL with invalid Oauth token if
+			 	Keeping `access token` alive generates login URL with invalid Oauth token if
 				user goes to `oauth\twitter\index.php`
-			*/
+			
 			// TBD: clearTwitterCredentials
 			if ( isset( $_SESSION['access_token'] ) )
 				unset( $_SESSION['access_token'] );
 				
 			require( DOCUMENT_ROOT . 'includes/html/login/email_not_verified.php' );
-		}
+		}*/
 		
+		// E-mail verification has been disabled
+		$redirect_uri = $loginHelper->Login( $user_id, OAUTH_TWITTER, $twitter_user->id );
+		header( "Location: $redirect_uri" );
 		exit;
 		
 	} else {

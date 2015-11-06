@@ -1,6 +1,6 @@
 <?php
 session_start();
-require( $_SERVER['DOCUMENT_ROOT'] . '/ts2/config/consts.php' );
+require( '../../config/consts.php' );
 require_once( DOCUMENT_ROOT . 'classes/Response.php' );
 
 $response = new Response();

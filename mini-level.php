@@ -18,7 +18,7 @@
 
 	if ( isset( $_GET['level'] ) && is_numeric( $_GET['level'] ) && $_GET['level'] == $todaysLevel ) {
 		
-		if ( $todaysLevel > 9 ) {
+		if ( ( $todaysLevel == 9 && $mini->isAnswered() ) || $todaysLevel > 9 ) {
 			require( DOCUMENT_ROOT . 'includes/html/event/mini_ended.php' );
 			exit;
 		} elseif ( $todaysLevel == 0 ) {

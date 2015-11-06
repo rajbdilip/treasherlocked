@@ -10,7 +10,7 @@
 	<link rel="shortcut icon" href="<?php echo SSTATIC; ?>favicon.png" type="image/png">
 	<link rel="icon" href="<?php echo SSTATIC; ?>favicon.png" type="image/png">
 
-	<title>Event not started - Treasherlocked 1.x Mini Series</title>
+	<title>Event not started - Treasherlocked 2.x Mini Series</title>
 	
 	<link href="<?php echo SSTATIC; ?>css/bootstrap.css" rel="stylesheet" />
 	<link href="<?php echo SSTATIC; ?>css/animate.css" rel="stylesheet" />
@@ -33,9 +33,9 @@
 			<div class="row">
 				<div class="social">
 					<div class="treasherlocked box">
-						<p>Treasherlocked 1.<?php echo $todaysLevel - 1; ?> has ended.</p>
+						<p>Treasherlocked 2.<?php echo $todaysLevel - 1; ?> has ended.</p>
 						<h3>Next event:</h3>
-						<h2>Treasherlocked 1.<?php echo $todaysLevel; ?></h2>
+						<h2>Treasherlocked 2.<?php echo $todaysLevel; ?></h2>
 						<h3 class="no-transform"><?php echo date( 'M d', MINI_START_DATE + --$todaysLevel*24*3600 ); ?>, 2100 to 2359 hours (IST)</h3>
 					</div>
 				</div>

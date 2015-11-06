@@ -3,7 +3,7 @@
 	This page receives the sign up information (Sign up using Treasherlocked i.e Oauth_Default) 
 	via an AJAX request. The page validates and completes the Oauth registration.
 */
-require( $_SERVER['DOCUMENT_ROOT'] . '/ts2/config/consts.php' );
+require( '../../config/consts.php' );
 session_start();
 
 if (  $_SERVER['REQUEST_METHOD'] == 'POST'
@@ -95,7 +95,7 @@ if (  $_SERVER['REQUEST_METHOD'] == 'POST'
 		$user['institute']		= $db->escape( $institute );
 		$user['location']		= $db->escape( $location );
 		$user['registered_in'] 	= date( "Y-m-d H:i:s", time() );
-		$user['verified']		= 0;
+		$user['verified']		= 1;
 		
 		// Register the user
 		$registrar = new Registrar( $db );
@@ -103,12 +103,15 @@ if (  $_SERVER['REQUEST_METHOD'] == 'POST'
 		
 		if ( $user_id ) {
 			
-			// Registration successfull - Send the email verification link
-			if ( $registrar->sendVerificationEmail( $user_id, $email ) ) 
-				$result = array( 'success' => true );
-			else
-				$result = array( 'success' => false, 'error' => 'Unexpected error!' );
+			// Disable email verification
+			// // Registration successfull - Send the email verification link
+			// if ( $registrar->sendVerificationEmail( $user_id, $email ) ) 
+			// 	$result = array( 'success' => true );
+			// else
+			// 	$result = array( 'success' => false, 'error' => 'Unexpected error!' );
 			
+			$result = array( 'success' => true, 'verified' => true );
+
 			header( 'Content-Type: application/json' );
 			echo json_encode( $result );
 			exit;

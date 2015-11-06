@@ -49,7 +49,7 @@ jQuery( document ).ready(function( $ ) {
 				console.log( response );
 				if ( response.success ) {
 					$( '.btn-social' ).slideUp("fast");
-					$( '.treasherlocked' ).html( '<p class="email">A verification link has been to sent to your email. Please open the link to complete the registration.</p>' );
+					$( '.treasherlocked' ).html( '<p class="email">You have successfully registered a Treasherlocked account. You can now login using the username and password you entered.</p>' );
 					processing = false;
 				} else {
 					$( '#submit_error' ).html( response.error );

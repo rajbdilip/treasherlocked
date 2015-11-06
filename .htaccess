@@ -3,12 +3,12 @@ Options +FollowSymLinks -Multiviews -Indexes
 <IfModule mod_rewrite.c>
 	SetEnv HTTP_MOD_REWRITE On
 	RewriteEngine On
-	
+
 	RewriteCond %{HTTP_HOST} ^treasherlocked.com
-	RewriteRule (.*) http://localhost/ts2/$1 [R=301,L]
+	RewriteRule (.*) http://www.treasherlocked.com/$1 [R=301,L]
 	
 	RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /index\.php\ HTTP/
-	RewriteRule ^index\.php$ http://localhost/ts2/ [R=301,L]
+	RewriteRule ^index\.php$ http://www.treasherlocked.com/ [R=301,L]
 	
 	# Add trailing slash to the URIs
 	RewriteCond %{REQUEST_URI} /+[^\.]+$
@@ -17,26 +17,28 @@ Options +FollowSymLinks -Multiviews -Indexes
 	RewriteRule ^about/$ about.php [L,NC]
 	RewriteRule ^how-to-play/$ howtoplay.php [L,NC]
 	RewriteRule ^rules/$ rules.php [L,NC]
-	RewriteRule ^hints/$ hints.php/ [L,NC]
-	RewriteRule ^leaderboard/$ leaderboard.php/ [L,NC]
+	RewriteRule ^hints/$ hints.php [L,NC]
+	RewriteRule ^leaderboard/$ leaderboard.php [L,NC]
 	
-	RewriteRule ^mini/$ mini.php/ [L,NC]
-	RewriteRule ^mini/play/$ mini-level.php/ [L,NC]
-	RewriteRule ^mini/1.([^/.]+)/$ mini-level.php?level=$1	[L,NC]
+	RewriteRule ^mini/$ mini.php [L,NC]
+	RewriteRule ^mini/play/$ mini-level.php [L,NC]
+	RewriteRule ^mini/2.([^/.]+)/$ mini-level.php?level=$1	[L,NC]
 	
-	RewriteRule ^play/$ level.php/ [L,NC]
-	RewriteRule ^level/$ level.php/ [L,NC]
+	RewriteRule ^play/$ level.php [L,NC]
+	RewriteRule ^level/$ level.php [L,NC]
 	RewriteRule ^level/([^/.]+)/$ level.php?level=$1	[L,NC]
 	
 	RewriteRule ^level2/([^/.]+)/$ level2.php?level=$1	[L,NC]
 
-	RewriteRule ^privacy/$ privacy.php/ [L,NC]
+	RewriteRule ^privacy/$ privacy.php [L,NC]
 	
-	RewriteRule ^login/$ login.php/ [L,NC]
-	RewriteRule ^signup/$ signup.php/ [L,NC]
-	RewriteRule ^logout/$ logout.php/ [L,NC]
+	RewriteRule ^login/$ login.php [L,NC]
+	RewriteRule ^signup/$ signup.php [L,NC]
+	RewriteRule ^logout/$ logout.php [L,NC]
 	
-	RewriteRule ^forgot-password/$ forgot-password.php/ [L,NC]
-	RewriteRule ^forgot-password/reset/$ reset-password.php/ [L,NC]
-		
+	RewriteRule ^forgot-password/$ forgot-password.php [L,NC]
+	RewriteRule ^forgot-password/reset/$ reset-password.php [L,NC]
+	
+	RewriteRule ^add-question/$ add-question.php [L,NC]
+	RewriteRule ^mini-add-question/$ mini-add-question.php [L,NC]	
 </IfModule>

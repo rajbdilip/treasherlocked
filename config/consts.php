@@ -3,8 +3,8 @@
 $document_root = dirname( dirname( __FILE__ ) ) . '/';
 
 /*	Website	*/
-define(	'SITE_URL', 		'http://localhost/ts2/' );
-define(	'SSTATIC', 			'http://localhost/ts2/_static/' );
+define(	'SITE_URL', 		'http://www.treasherlocked.com/' );
+define(	'SSTATIC', 			'http://www.treasherlocked.com/_static/' );
 define(	'DOCUMENT_ROOT', 	$document_root );
 
 /*	Pages	*/
@@ -26,8 +26,8 @@ define( 'OAUTH_TWITTER',	3 );
 date_default_timezone_set( 'Asia/Calcutta' );
 
 /*	Main Event	 */
-define( 'EVENT_START',	strtotime( '2015-09-07 21:00:00' ) );
-define( 'EVENT_END', 	strtotime( '2015-11-09 21:00:00' ) );
+define( 'EVENT_START',	strtotime( '2015-11-06 21:00:00' ) );
+define( 'EVENT_END', 	strtotime( '2015-11-08 21:00:00' ) );
 
 /*	Event's Constant	*/
 define( 'EVENT_NOT_STARTED',	0 );
@@ -39,10 +39,9 @@ define( 'NO_OF_LEVELS',			30 	);
 define( 'RANKING_LIMIT',		2 );
 
 /*** Mini Event ***/
-define( 'MINI_START_DATE',		strtotime( '2014-10-29 00:00:00' ) );
-define( 'MINI_END_DATE',		strtotime( '2014-11-07 00:00:00' ) );
-define( 'MINI_START_TIME',		20*3600 );
+define( 'MINI_START_DATE',		strtotime( '2015-10-28 00:00:00' ) );
+define( 'MINI_END_DATE',		strtotime( '2015-11-05 00:00:00' ) );
+define( 'MINI_START_TIME',		21*3600 );
 define( 'MINI_END_TIME',		23*3600 + 59*60 );
-
 
 ?>

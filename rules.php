@@ -21,7 +21,7 @@
 
 	<title>Rules and regulations - Treasherlocked 2.0</title>
 	
-	<meta name="description" content="Treasherlocked 2.0 is the second installment to a three-day online cryptic treasure hunt organized by Microsoft Campus Club of NIT Rourkela. The second installment will be held between 7th November and 9th November, 2014." />
+	<meta name="description" content="Treasherlocked 2.0 is the second installment to a three-day online cryptic treasure hunt organized by Microsoft Campus Club of NIT Rourkela. The second installment will be held between 6th November and 8th November, 2014." />
 	<meta name="keywords"  content="treasherlocked, innovision 2014, NIT Rourkela, NIT Rourkela treasure hunt, cryptic hunt, online cryptic hunt, treasure hunt" />
 
 	<link href="<?php echo SSTATIC; ?>css/bootstrap.css" rel="stylesheet" />
@@ -47,7 +47,7 @@
 						a series of cryptic levels.
 					</li>
 					<li>
-						The event shall be held over 3 days, starting from 7<sup>th</sup> November 2014. Check 
+						The event shall be held over 3 days, starting from 6<sup>th</sup> November 2014. Check 
 						<a href="https://www.facebook.com/MicrosoftCampusClub">this page</a> for regular updates.
 					</li>
 					<li>

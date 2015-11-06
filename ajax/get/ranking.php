@@ -1,5 +1,5 @@
 <?php
-require( $_SERVER['DOCUMENT_ROOT'] . '/ts2/config/consts.php' );
+require( '../../config/consts.php' );
 session_start();
 
 require_once( DOCUMENT_ROOT . 'classes/LoginHelper.php' );

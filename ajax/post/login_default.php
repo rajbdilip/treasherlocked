@@ -5,7 +5,7 @@
 */
 
 
-require( $_SERVER['DOCUMENT_ROOT'] . '/ts2/config/consts.php' );
+require( '../../config/consts.php' );
 session_start();
 
 if (  $_SERVER['REQUEST_METHOD'] == 'POST'

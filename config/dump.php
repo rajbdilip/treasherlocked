@@ -1,5 +1,5 @@
 <?php
-require( $_SERVER['DOCUMENT_ROOT'] . '/ts2/config/consts.php' );
+require( $_SERVER['DOCUMENT_ROOT'] . '/_treasherlocked/config/consts.php' );
 session_start();
 echo "<pre>";
 var_dump($_SESSION);

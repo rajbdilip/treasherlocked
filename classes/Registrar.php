@@ -48,6 +48,9 @@ class Registrar {
 	
 	public function registerUser( $user ) {
 
+		// To disable email verification
+		$user['verified'] = 1;
+				
 		$id = $this->db->insert( 'users', $user );
 		
 		if ($id) {
@@ -84,7 +87,7 @@ class Registrar {
 				   '<div id="inner" style="width: 78%; margin: 0 auto; font-family: Calibri, Open Sans,Arial,sans-serif;font-size: 15px;font-weight: normal;line-height: 1.4em;color: #5f6061; margin-top: 10px;">'. 
 					   '<p><h2>Congratulations!</h2></p>'. 
 					   '<p>Congratulations on signing up for Treasherlocked 2.0. Please click the link below or copy to your browser\'s address bar in order to complete the registration.</p>'. 
-					   '<p><a href="http://localhost/ts2/verify.php?id=' . $id . '&auth_code=' . $auth_code . '">http://localhost/ts2/verify.php?id=' . $id .'&auth_code=' . $auth_code . '</a></p>'. 
+					   '<p><a href="http://www.treasherlocked.com/verify.php?id=' . $id . '&auth_code=' . $auth_code . '">http://localhost/tsl3/verify.php?id=' . $id .'&auth_code=' . $auth_code . '</a></p>'. 
 					   '<p>Please contact us via <a href="https://www.facebook.com/Treasherlocked">Facebook</a> or drop us a mail at <a href="mailto:support@microsoftcampusclub.in">support@microsoftcampusclub.in</a> on persistence of any problem.</p>'.  
 				   '</div>'.
 				'</div>'. 
@@ -128,7 +131,7 @@ class Registrar {
 				   '<div id="inner" style="width: 78%; margin: 0 auto; font-family: Calibri, Open Sans,Arial,sans-serif;font-size: 13px;font-weight: normal;line-height: 1.4em;color: #5f6061; margin-top: 10px;">'. 
 					   '<p><h2>How to reset your password</h2></p>'. 
 					   '<p>We have recieved a request from you to reset your password. Please click the link below or copy it to your browser\'s address bar in order to reset the password.</p>'. 
-					   '<p><a href="http://localhost/ts2/forgot-password/reset/?id=' . $id . '&auth_code=' . $auth_code . '">http://localhost/ts2/forgot-password/reset/?id=' . $id .'&auth_code=' . $auth_code . '</a></p>'. 
+					   '<p><a href="http://localhost/tsl3/forgot-password/reset/?id=' . $id . '&auth_code=' . $auth_code . '">http://localhost/tsl3/forgot-password/reset/?id=' . $id .'&auth_code=' . $auth_code . '</a></p>'. 
 					   '<p>Please contact us via <a href="https://www.facebook.com/Treasherlocked">Facebook</a> or drop us a mail at <a href="mailto:support@microsoftcampusclub.in">support@microsoftcampusclub.in</a> on persistence of any problem.</p>'.  
 					   '<p>If you didn\'t reqeust us to reset your password please ignore this email.</p>'.  
 				   '</div>'.

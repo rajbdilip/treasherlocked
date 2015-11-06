@@ -6,32 +6,32 @@
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 
 <url>
-  <loc>http://www.treasherlocked.in/</loc>
+  <loc>http://www.treasherlocked.com/</loc>
   <changefreq>daily</changefreq>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>http://www.treasherlocked.in/about/</loc>
+  <loc>http://www.treasherlocked.com/about/</loc>
   <changefreq>daily</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.treasherlocked.in/how-to-play/</loc>
+  <loc>http://www.treasherlocked.com/how-to-play/</loc>
   <changefreq>daily</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.treasherlocked.in/rules/</loc>
+  <loc>http://www.treasherlocked.com/rules/</loc>
   <changefreq>daily</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.treasherlocked.in/hints/</loc>
+  <loc>http://www.treasherlocked.com/hints/</loc>
   <changefreq>daily</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.treasherlocked.in/privacy/</loc>
+  <loc>http://www.treasherlocked.com/privacy/</loc>
   <changefreq>daily</changefreq>
   <priority>0.80</priority>
 </url>

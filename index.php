@@ -33,10 +33,10 @@
 	<link rel="shortcut icon" href="<?php echo SSTATIC; ?>favicon.png" type="image/png">
 	<link rel="icon" href="<?php echo SSTATIC; ?>favicon.png" type="image/png">
 
-	<title>Treasherlocked 2.0 by Microsoft Campus Club, NIT Rourkela</title>
+	<title>Treasherlocked 3.0 by Microsoft Campus Club, NIT Rourkela - Treasure is locked, yet again!</title>
 	
-	<meta name="description" content="Treasherlocked 2.0 is the second installment to a three-day online cryptic treasure hunt organized by Microsoft Campus Club of NIT Rourkela. The second installment will be held between 7th November and 9th November, 2014." />
-	<meta name="keywords"  content="treasherlocked, innovision 2014, NIT Rourkela, NIT Rourkela treasure hunt, cryptic hunt, online cryptic hunt, treasure hunt" />
+	<meta name="description" content="Treasherlocked 3.0 is the third installment to a three-day online cryptic treasure hunt organized by Microsoft Campus Club of NIT Rourkela. It will be held between 6th November and 8th November, 2015." />
+	<meta name="keywords"  content="treasherlocked, treasure locked, treasure sherlocked, sherlock, treasherlocked 3.0, innovision 2015, NIT Rourkela, NIT Rourkela treasure hunt, cryptic hunt, online cryptic hunt, treasure hunt" />
 
 	<link href="<?php echo SSTATIC; ?>css/bootstrap.css" rel="stylesheet" />
 	<link href="<?php echo SSTATIC; ?>css/animate.css" rel="stylesheet" />
@@ -59,8 +59,8 @@
 			<img id="logo" class="wow animated fadeInDown" data-wow-duration="1s" data-wow-delay="1s" src="<?php echo SSTATIC; ?>img/logo.png" />
 			<h2 class="wow animated fadeInDown" data-wow-duration="1s" data-wow-delay="1s">because the hunt is on</h2>
 			<hr id="title_hr" />
-			<p class="wow animated fadeInUp" data-wow-duration="1s" data-wow-delay="1s">7-9 November 2014</p>
-			<a class="btn-effect wow animated fadeIn" data-wow-duration="0.5s" data-wow-delay="1.5s" data-scroll href="<?php echo SITE_URL . 'play/'; ?>">Play Now</a>
+			<p class="wow animated fadeInUp" data-wow-duration="1s" data-wow-delay="1s">6-8 November 2015</p>
+			<a class="btn-effect wow animated fadeIn" data-wow-duration="0.5s" data-wow-delay="1.5s" data-scroll href="<?php echo SITE_URL . 'signup/'; ?>">Register Now</a>
 		</div>
 	</section>
 	
@@ -85,37 +85,49 @@
 	<section id="sponsors" class="text-center section-padding">
 		<div class="container">
 			<div class="sponsor">
-				<a href="http://www.10kya.com" target="_blank"><img src="<?php echo SSTATIC; ?>img/sponsors/10kya.png" /></a>
-				<span>Sponsor</span>
+				<img src="<?php echo SSTATIC; ?>img/sponsors/standard.png" />
+				<span class="sponsor-font">Sponsor</span>
 			</div>
 			<div class="sponsor">
-				<a href="http://www.punambookstore.com" target="_blank"><img src="<?php echo SSTATIC; ?>img/sponsors/punam.png" /></a>
-				<span>Co-sponsor</span>
+				<a href="http://www.facebook.com/javatechnocrat/" target="_blank"><img src="<?php echo SSTATIC; ?>img/sponsors/jt.png" /></a>
+				<span class="sponsor-font">Co Sponsor</span>
 			</div>
 			<div class="sponsor">
-				<a href="http://scholarscharm.com/" target="_blank"><img src="<?php echo SSTATIC; ?>img/sponsors/scholarscharm.png" /></a>
-				<span>Powered by</span>
+				<a href="http://punambookstore.com" target="_blank"><img src="<?php echo SSTATIC; ?>img/sponsors/punam.png" /></a>
+				<span class="sponsor-font">Co Sponsor</span>
+			</div>
+			<div class="sponsor">
+				<a href="http://www.newindianexpress.com" target="_blank"><img src="<?php echo SSTATIC; ?>img/sponsors/indianexpress.png" /></a>
+				<span class="sponsor-font">Media Partner</span>
 			</div>
 			<div class="sponsor">
 				<a href="http://innovision.nitrkl.ac.in" target="_blank"><img src="<?php echo SSTATIC; ?>img/sponsors/innovision.png" /></a>
-				<span>Event Partner</span>
+				<span class="sponsor-font">Event Partner</span>
 			</div>
+			<div class="sponsor">
+				<a href="http://dare2compete.com" target="_blank"><img src="<?php echo SSTATIC; ?>img/sponsors/d2c.png" /></a>
+				<span class="sponsor-font">Competition Partner</span>
+			</div><br />
 			<div class="sponsor">
 				<a href="http://www.hackerrank.com" target="_blank"><img src="<?php echo SSTATIC; ?>img/sponsors/hackerrank.png" /></a>
-				<span>Student Partner</span>
-			</div>			
-			<div class="sponsor">
-				<a href="http://www.newindianexpress.com/" target="_blank"><img src="<?php echo SSTATIC; ?>img/sponsors/indianexpress.png" /></a>
-				<span>Media Partner</span>
+				<span class="sponsor-font">Student Partner</span>
 			</div>
 			<div class="sponsor">
-				<a href="http://mondaymorning.nitrkl.ac.in" target="_blank"><img src="<?php echo SSTATIC; ?>img/sponsors/mondaymorning.png" /></a>
-				<span>Campus Media Partner</span>
+				<a href="https://www.facebook.com/ptbn.inter.college.network/?fref=ts" target="_blank"><img src="<?php echo SSTATIC; ?>img/sponsors/ptbn.png" /></a>
+				<span class="sponsor-font">Publicity Partner</span>
 			</div>
+			<div class="sponsor">
+				<a href="https://www.facebook.com/M.n.internationale/?fref=ts" target="_blank"><img src="<?php echo SSTATIC; ?>img/sponsors/mn.png" /></a>
+				<span class="sponsor-font">Recreation Partner</span>
+			</div>
+			<div class="sponsor">
+				<a href="http://mondaymorning.nitrkl.ac.in" target="_blank"><img src="<?php echo SSTATIC; ?>img/sponsors/mm.png" /></a>
+				<span class="sponsor-font">Media Partner</span>
+			</div>		
 			<div class="space space-40"></div>
 			<div class="row">
-				<a href="http://www.microsofcampusclub.in" target="_blank"><img src="<?php echo SSTATIC; ?>img/msclublogo.png" /></a>
-				<p>a <a href="http://www.microsofcampusclub.in">Microsoft Campus Club</a> event</p>
+				<a href="http://www.microsoftcampusclub.in" target="_blank"><img src="<?php echo SSTATIC; ?>img/msclublogo.png" /></a>
+				<p>a <a href="http://www.microsoftcampusclub.in">Microsoft Campus Club</a> event</p>
 			</div>
 		</div>
 	</section>

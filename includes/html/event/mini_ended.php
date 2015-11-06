@@ -1,4 +1,5 @@
 <?php 
+	require( 'config/consts.php' );
 	$page = MINI_SERIES;
 ?>
 <!DOCTYPE html>
@@ -10,7 +11,7 @@
 	<link rel="shortcut icon" href="<?php echo SSTATIC; ?>favicon.png" type="image/png">
 	<link rel="icon" href="<?php echo SSTATIC; ?>favicon.png" type="image/png">
 
-	<title>Event has come to an end - Treasherlocked 1.x Mini Series</title>
+	<title>Event has come to an end - Treasherlocked 2.x Mini Series</title>
 	
 	<link href="<?php echo SSTATIC; ?>css/bootstrap.css" rel="stylesheet" />
 	<link href="<?php echo SSTATIC; ?>css/animate.css" rel="stylesheet" />
@@ -33,13 +34,33 @@
 			<div class="row">
 				<div class="social">
 					<div class="treasherlocked box">
-						<p>Treasherlocked 1.x has come to an end.</p>
-						<h2>Treasherlocked 2.0</h2>
+						<p>Treasherlocked 2.x has come to an end.</p>
+						<h2>Treasherlocked 3.0</h2>
 						<h4 class="no-transform">starts</h4>
-						<h3 class="no-transform">November 07, 2100 hours (IST)</h3>
-						<a class="btn btn-effect" href="https://www.facebook.com/Treasherlocked" target="_blank">Stay tuned</a>
+						<h3 class="no-transform">November 06, 2100 hours (IST)</h3>
+						<a class="btn btn-effect" href="https://www.facebook.com/MicrosoftCampusClub" target="_blank">Stay tuned</a>
 					</div>
 				</div>
+			</div>
+			<div class="space space-20"></div>
+			<div class="row box disqus" id="disqus">
+			    <div id="disqus_thread"></div>
+				<script>
+				    (function() {
+				        var d = document, s = d.createElement('script');
+				        
+				        s.src = '//treasherlocked3.disqus.com/embed.js';
+				        
+				        s.setAttribute('data-timestamp', +new Date());
+				        (d.head || d.body).appendChild(s);
+
+				        setInterval( function() {
+				        	console.log( 'Refreshing' );
+				        	DISQUS.reset( { reload: true } );
+				        }, 20000 );
+				    })();
+				</script>
+				<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
 			</div>
 		</div>
 	</section>

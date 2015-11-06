@@ -7,7 +7,7 @@
 		$upload_ok=1;
 		if($_FILES['favicon']['name']!='')
 		{
-			$target_dir = $_SERVER['DOCUMENT_ROOT'] . "/ts2/_static/img/favicon/"; 
+			$target_dir = DOCUMENT_ROOT . "_static/img/favicon/"; 
 			$target_file = $target_dir . basename($_FILES['favicon']['name']);
 			if(strlen($_FILES['favicon']['name'])>20)	//checks the filename string size
 			{

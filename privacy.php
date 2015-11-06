@@ -21,7 +21,7 @@
 
 	<title>Treasherlocked Privacy Policy</title>
 	
-	<meta name="description" content="Treasherlocked 2.0 Privacy Policy" />
+	<meta name="description" content="Treasherlocked 3.0 Privacy Policy" />
 	<meta name="keywords"  content="treasherlocked, privacy, privacy policy" />
 
 	<link href="<?php echo SSTATIC; ?>css/bootstrap.css" rel="stylesheet" />
@@ -47,7 +47,7 @@
 				<p>
 					This Privacy Policy governs the manner in which Treasherlocked collects, uses, maintains and 
 					discloses information collected from users (each, a "User") of the 
-					<a href="http://www.treasherlocked.in">www.treasherlocked.in</a> website.
+					<a href="http://www.treasherlocked.in">www.treasherlocked.com</a> website.
 				</p>
 				<h2>Personal identification information</h2>
 				<p>

@@ -1,5 +1,5 @@
 <?php
-require( $_SERVER['DOCUMENT_ROOT'] . '/ts2/config/consts.php' );
+require( '../../config/consts.php' );
 require( DOCUMENT_ROOT . 'config/db.php' );
 require( DOCUMENT_ROOT . 'classes/LoginHelper.php' );
 require( DOCUMENT_ROOT . 'classes/Registrar.php' );

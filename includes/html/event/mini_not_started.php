@@ -10,7 +10,7 @@
 	<link rel="shortcut icon" href="<?php echo SSTATIC; ?>favicon.png" type="image/png">
 	<link rel="icon" href="<?php echo SSTATIC; ?>favicon.png" type="image/png">
 
-	<title>Starting soon - Treasherlocked 1.x Mini Series</title>
+	<title>Starting soon - Treasherlocked 2.x Mini Series</title>
 	
 	<link href="<?php echo SSTATIC; ?>css/bootstrap.css" rel="stylesheet" />
 	<link href="<?php echo SSTATIC; ?>css/animate.css" rel="stylesheet" />
@@ -33,10 +33,10 @@
 			<div class="row">
 				<div class="social">
 					<div class="treasherlocked box">
-						<p>Treasherlocked 1.x has not started yet.</p>
+						<p>Treasherlocked 2.x has not started yet.</p>
 						<h3 class="no-transform">First event:</h3>
 						<h2>Treasherlocked 1.1</h2>
-						<h3 class="no-transform">October 29, 2100 to 2359 hours (IST)</h3>
+						<h3 class="no-transform">October 28, 2100 to 2359 hours (IST)</h3>
 						<a class="btn btn-effect" href="https://www.facebook.com/Treasherlocked" target="_blank">Stay tuned</a>
 					</div>
 				</div>

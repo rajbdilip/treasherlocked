@@ -3,7 +3,7 @@
 	This page receives the additional information after a Oauth login via an AJAX
 	request. The page validates and completes the Oauth registration.
 */
-require( $_SERVER['DOCUMENT_ROOT'] . '/ts2/config/consts.php' );
+require( '../../config/consts.php' );
 session_start();
 
 if (  $_SERVER['REQUEST_METHOD'] == 'POST'
@@ -85,9 +85,12 @@ if (  $_SERVER['REQUEST_METHOD'] == 'POST'
 
 		$user['registered_in'] = date( "Y-m-d H:i:s", time() );
 		
-		if ( $user['oauth_type'] != OAUTH_TWITTER )
-			$user['verified'] = 1;
+		// Disable E-email verification
+		/*if ( $user['oauth_type'] != OAUTH_TWITTER )
+			$user['verified'] = 1;*/
 		
+		$user['verified'] = 1;
+			
 		// Add user's record to the database
 		$registrar = new Registrar($db);
 		$id = $registrar->registerUser($user);
@@ -102,7 +105,8 @@ if (  $_SERVER['REQUEST_METHOD'] == 'POST'
 			unset( $_SESSION['temp_user_id'] );
 			unset( $_SESSION['spoof_proof'] );
 			
-			/* If email has been manually provided, it needs to be verified. */
+			// Disable Email Verification
+			/*/* If email has been manually provided, it needs to be verified.
 			if ( isset($email) ) {
 				$registrar->sendVerificationEmail( $id, $user['email'] );
 				// Show verification page link
@@ -111,7 +115,7 @@ if (  $_SERVER['REQUEST_METHOD'] == 'POST'
 				header( 'Content-Type: application/json' );
 				echo json_encode( $result );
 				exit;
-			}
+			}*/
 			
 			// Now that the registration is complete, login the user
 			$loginHelper = new LoginHelper();

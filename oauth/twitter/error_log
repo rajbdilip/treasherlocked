@@ -1,2 +1,4 @@
 [07-Nov-2014 14:47:31 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/treasherlocked/public_html/oauth/twitter/login.php on line 100
 [07-Nov-2014 14:48:44 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/treasherlocked/public_html/oauth/twitter/login.php on line 100
+[25-Oct-2015 16:47:48 UTC] PHP Warning:  require(/home/rajbdilip/public_html/_treasherlocked/_treasherlocked/config/consts.php): failed to open stream: No such file or directory in /home/rajbdilip/public_html/_treasherlocked/oauth/twitter/index.php on line 2
+[25-Oct-2015 16:47:48 UTC] PHP Fatal error:  require(): Failed opening required '/home/rajbdilip/public_html/_treasherlocked/_treasherlocked/config/consts.php' (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/rajbdilip/public_html/_treasherlocked/oauth/twitter/index.php on line 2

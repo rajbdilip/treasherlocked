@@ -443,3 +443,193 @@ Stack trace:
 #2 /home/treasherlocked/public_html/oauth/google/login.php(41): Google->authenticate('4/FHlX7qLaW23m-...')
 #3 {main}
   thrown in /home/treasherlocked/public_html/oauth/google/Google/Auth/OAuth2.php on line 124
+[25-Oct-2015 13:48:30 UTC] PHP Warning:  require(/home/rajbdilip/public_html/_treasherlocked/_treasherlocked/config/consts.php): failed to open stream: No such file or directory in /home/rajbdilip/public_html/_treasherlocked/oauth/google/index.php on line 2
+[25-Oct-2015 13:48:30 UTC] PHP Fatal error:  require(): Failed opening required '/home/rajbdilip/public_html/_treasherlocked/_treasherlocked/config/consts.php' (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/rajbdilip/public_html/_treasherlocked/oauth/google/index.php on line 2
+[25-Oct-2015 14:06:14 UTC] PHP Warning:  require(/home/rajbdilip/public_html/_treasherlocked/_treasherlocked/config/consts.php): failed to open stream: No such file or directory in /home/rajbdilip/public_html/_treasherlocked/oauth/google/index.php on line 2
+[25-Oct-2015 14:06:14 UTC] PHP Fatal error:  require(): Failed opening required '/home/rajbdilip/public_html/_treasherlocked/_treasherlocked/config/consts.php' (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/rajbdilip/public_html/_treasherlocked/oauth/google/index.php on line 2
+[25-Oct-2015 19:39:23 Asia/Calcutta] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'treasherlocked'@'localhost' (using password: YES) in /home/rajbdilip/public_html/_treasherlocked/classes/Database.php on line 140
+[25-Oct-2015 19:39:23 Asia/Calcutta] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home/rajbdilip/public_html/_treasherlocked/classes/Database.php on line 143
+[25-Oct-2015 19:39:24 Asia/Calcutta] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'treasherlocked'@'localhost' (using password: YES) in /home/rajbdilip/public_html/_treasherlocked/classes/Database.php on line 140
+[25-Oct-2015 19:39:24 Asia/Calcutta] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home/rajbdilip/public_html/_treasherlocked/classes/Database.php on line 143
+[25-Oct-2015 19:39:24 Asia/Calcutta] PHP Warning:  mysqli::prepare(): Couldn't fetch mysqli in /home/rajbdilip/public_html/_treasherlocked/classes/Database.php on line 768
+[25-Oct-2015 19:39:24 Asia/Calcutta] PHP Warning:  Database::_prepareQuery(): Couldn't fetch mysqli in /home/rajbdilip/public_html/_treasherlocked/classes/Database.php on line 769
+[25-Oct-2015 19:39:24 Asia/Calcutta] PHP Fatal error:  Problem preparing query (SELECT id FROM users WHERE oauth_type = ?  AND oauth_id = ?  LIMIT 1)  in /home/rajbdilip/public_html/_treasherlocked/classes/Database.php on line 769
+[25-Oct-2015 19:41:50 Asia/Calcutta] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'treasherlocked'@'localhost' (using password: YES) in /home/rajbdilip/public_html/_treasherlocked/classes/Database.php on line 140
+[25-Oct-2015 19:41:50 Asia/Calcutta] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home/rajbdilip/public_html/_treasherlocked/classes/Database.php on line 143
+[25-Oct-2015 19:41:51 Asia/Calcutta] PHP Warning:  mysqli::prepare(): Couldn't fetch mysqli in /home/rajbdilip/public_html/_treasherlocked/classes/Database.php on line 768
+[25-Oct-2015 19:41:51 Asia/Calcutta] PHP Warning:  Database::_prepareQuery(): Couldn't fetch mysqli in /home/rajbdilip/public_html/_treasherlocked/classes/Database.php on line 769
+[25-Oct-2015 19:41:51 Asia/Calcutta] PHP Fatal error:  Problem preparing query (SELECT id FROM users WHERE oauth_type = ?  AND oauth_id = ?  LIMIT 1)  in /home/rajbdilip/public_html/_treasherlocked/classes/Database.php on line 769
+[25-Oct-2015 21:10:46 Asia/Calcutta] PHP Fatal error:  Call to undefined function init_set() in /home/rajbdilip/public_html/_treasherlocked/config/consts.php on line 48
+[25-Oct-2015 21:12:12 Asia/Calcutta] PHP Fatal error:  Call to undefined function init_set() in /home/rajbdilip/public_html/_treasherlocked/config/consts.php on line 48
+[25-Oct-2015 21:13:17 Asia/Calcutta] PHP Fatal error:  Call to undefined function init_set() in /home/rajbdilip/public_html/_treasherlocked/config/consts.php on line 48
+[25-Oct-2015 21:13:23 Asia/Calcutta] PHP Fatal error:  Call to undefined function init_set() in /home/rajbdilip/public_html/_treasherlocked/config/consts.php on line 48
+[26-Oct-2015 07:34:27 Asia/Calcutta] PHP Notice:  Undefined index: gender in /home/rajbdilip/public_html/_treasherlocked/oauth/google/Google/Model.php on line 78
+[27-Oct-2015 19:07:50 Asia/Calcutta] PHP Notice:  Undefined index: gender in /home/rajbdilip/public_html/_treasherlocked/oauth/google/Google/Model.php on line 78
+[27-Oct-2015 20:38:10 Asia/Calcutta] PHP Notice:  Undefined index: gender in /home/rajbdilip/public_html/_treasherlocked/oauth/google/Google/Model.php on line 78
+[27-Oct-2015 20:44:35 Asia/Calcutta] PHP Notice:  Undefined index: gender in /home/rajbdilip/public_html/_treasherlocked/oauth/google/Google/Model.php on line 78
+[27-Oct-2015 21:07:58 Asia/Calcutta] PHP Notice:  Undefined index: gender in /home/rajbdilip/public_html/_treasherlocked/oauth/google/Google/Model.php on line 78
+[27-Oct-2015 21:09:15 Asia/Calcutta] PHP Notice:  Undefined index: gender in /home/rajbdilip/public_html/_treasherlocked/oauth/google/Google/Model.php on line 78
+[27-Oct-2015 21:13:11 Asia/Calcutta] PHP Notice:  Undefined index: gender in /home/rajbdilip/public_html/_treasherlocked/oauth/google/Google/Model.php on line 78
+[27-Oct-2015 21:13:27 Asia/Calcutta] PHP Notice:  Undefined index: gender in /home/rajbdilip/public_html/_treasherlocked/oauth/google/Google/Model.php on line 78
+[27-Oct-2015 22:48:19 Asia/Calcutta] PHP Notice:  Undefined index: gender in /home/rajbdilip/public_html/_treasherlocked/oauth/google/Google/Model.php on line 78
+[27-Oct-2015 23:30:50 Asia/Calcutta] PHP Notice:  Undefined index: gender in /home/rajbdilip/public_html/_treasherlocked/oauth/google/Google/Model.php on line 78
+[28-Oct-2015 10:19:54 Asia/Calcutta] PHP Notice:  Undefined index: gender in /home/rajbdilip/public_html/_treasherlocked/oauth/google/Google/Model.php on line 78
+[28-Oct-2015 10:19:54 Asia/Calcutta] PHP Stack trace:
+[28-Oct-2015 10:19:54 Asia/Calcutta] PHP   1. {main}() /home/rajbdilip/public_html/_treasherlocked/oauth/google/login.php:0
+[28-Oct-2015 10:19:54 Asia/Calcutta] PHP   2. Google_Model->offsetGet() /home/rajbdilip/public_html/_treasherlocked/oauth/google/login.php:86
+[28-Oct-2015 10:19:54 Asia/Calcutta] PHP   3. Google_Model->__get() /home/rajbdilip/public_html/_treasherlocked/oauth/google/Google/Model.php:213
+[28-Oct-2015 14:10:25 Asia/Calcutta] PHP Notice:  Undefined index: gender in /home/rajbdilip/public_html/_treasherlocked/oauth/google/Google/Model.php on line 78
+[28-Oct-2015 14:10:25 Asia/Calcutta] PHP Stack trace:
+[28-Oct-2015 14:10:25 Asia/Calcutta] PHP   1. {main}() /home/rajbdilip/public_html/_treasherlocked/oauth/google/login.php:0
+[28-Oct-2015 14:10:25 Asia/Calcutta] PHP   2. Google_Model->offsetGet() /home/rajbdilip/public_html/_treasherlocked/oauth/google/login.php:86
+[28-Oct-2015 14:10:25 Asia/Calcutta] PHP   3. Google_Model->__get() /home/rajbdilip/public_html/_treasherlocked/oauth/google/Google/Model.php:213
+[28-Oct-2015 14:22:56 Asia/Calcutta] PHP Notice:  Undefined index: gender in /home/rajbdilip/public_html/_treasherlocked/oauth/google/Google/Model.php on line 78
+[28-Oct-2015 14:22:56 Asia/Calcutta] PHP Stack trace:
+[28-Oct-2015 14:22:56 Asia/Calcutta] PHP   1. {main}() /home/rajbdilip/public_html/_treasherlocked/oauth/google/login.php:0
+[28-Oct-2015 14:22:56 Asia/Calcutta] PHP   2. Google_Model->offsetGet() /home/rajbdilip/public_html/_treasherlocked/oauth/google/login.php:86
+[28-Oct-2015 14:22:56 Asia/Calcutta] PHP   3. Google_Model->__get() /home/rajbdilip/public_html/_treasherlocked/oauth/google/Google/Model.php:213
+[28-Oct-2015 17:25:51 Asia/Calcutta] PHP Notice:  Undefined index: gender in /home/rajbdilip/public_html/_treasherlocked/oauth/google/Google/Model.php on line 78
+[28-Oct-2015 17:25:51 Asia/Calcutta] PHP Stack trace:
+[28-Oct-2015 17:25:51 Asia/Calcutta] PHP   1. {main}() /home/rajbdilip/public_html/_treasherlocked/oauth/google/login.php:0
+[28-Oct-2015 17:25:51 Asia/Calcutta] PHP   2. Google_Model->offsetGet() /home/rajbdilip/public_html/_treasherlocked/oauth/google/login.php:86
+[28-Oct-2015 17:25:51 Asia/Calcutta] PHP   3. Google_Model->__get() /home/rajbdilip/public_html/_treasherlocked/oauth/google/Google/Model.php:213
+[28-Oct-2015 18:02:15 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'Google_Auth_Exception' with message 'Error fetching OAuth2 access token, message: 'invalid_grant'' in /home/rajbdilip/public_html/_treasherlocked/oauth/google/Google/Auth/OAuth2.php:124
+Stack trace:
+#0 /home/rajbdilip/public_html/_treasherlocked/oauth/google/Google/Client.php(135): Google_Auth_OAuth2->authenticate('4/-aTxPw9r1fOkG...')
+#1 /home/rajbdilip/public_html/_treasherlocked/oauth/google/Google/Google.php(25): Google_Client->authenticate('4/-aTxPw9r1fOkG...')
+#2 /home/rajbdilip/public_html/_treasherlocked/oauth/google/login.php(41): Google->authenticate('4/-aTxPw9r1fOkG...')
+#3 {main}
+  thrown in /home/rajbdilip/public_html/_treasherlocked/oauth/google/Google/Auth/OAuth2.php on line 124
+[28-Oct-2015 18:22:38 Asia/Calcutta] PHP Notice:  Undefined index: gender in /home/rajbdilip/public_html/_treasherlocked/oauth/google/Google/Model.php on line 78
+[28-Oct-2015 18:22:38 Asia/Calcutta] PHP Stack trace:
+[28-Oct-2015 18:22:38 Asia/Calcutta] PHP   1. {main}() /home/rajbdilip/public_html/_treasherlocked/oauth/google/login.php:0
+[28-Oct-2015 18:22:38 Asia/Calcutta] PHP   2. Google_Model->offsetGet() /home/rajbdilip/public_html/_treasherlocked/oauth/google/login.php:86
+[28-Oct-2015 18:22:38 Asia/Calcutta] PHP   3. Google_Model->__get() /home/rajbdilip/public_html/_treasherlocked/oauth/google/Google/Model.php:213
+[28-Oct-2015 18:33:01 Asia/Calcutta] PHP Notice:  Undefined index: gender in /home/rajbdilip/public_html/_treasherlocked/oauth/google/Google/Model.php on line 78
+[28-Oct-2015 18:33:01 Asia/Calcutta] PHP Stack trace:
+[28-Oct-2015 18:33:01 Asia/Calcutta] PHP   1. {main}() /home/rajbdilip/public_html/_treasherlocked/oauth/google/login.php:0
+[28-Oct-2015 18:33:01 Asia/Calcutta] PHP   2. Google_Model->offsetGet() /home/rajbdilip/public_html/_treasherlocked/oauth/google/login.php:86
+[28-Oct-2015 18:33:01 Asia/Calcutta] PHP   3. Google_Model->__get() /home/rajbdilip/public_html/_treasherlocked/oauth/google/Google/Model.php:213
+[28-Oct-2015 18:48:09 Asia/Calcutta] PHP Notice:  Undefined index: gender in /home/rajbdilip/public_html/_treasherlocked/oauth/google/Google/Model.php on line 78
+[28-Oct-2015 18:48:09 Asia/Calcutta] PHP Stack trace:
+[28-Oct-2015 18:48:09 Asia/Calcutta] PHP   1. {main}() /home/rajbdilip/public_html/_treasherlocked/oauth/google/login.php:0
+[28-Oct-2015 18:48:09 Asia/Calcutta] PHP   2. Google_Model->offsetGet() /home/rajbdilip/public_html/_treasherlocked/oauth/google/login.php:86
+[28-Oct-2015 18:48:09 Asia/Calcutta] PHP   3. Google_Model->__get() /home/rajbdilip/public_html/_treasherlocked/oauth/google/Google/Model.php:213
+[28-Oct-2015 19:12:29 Asia/Calcutta] PHP Notice:  Undefined index: gender in /home/rajbdilip/public_html/_treasherlocked/oauth/google/Google/Model.php on line 78
+[28-Oct-2015 19:12:29 Asia/Calcutta] PHP Stack trace:
+[28-Oct-2015 19:12:29 Asia/Calcutta] PHP   1. {main}() /home/rajbdilip/public_html/_treasherlocked/oauth/google/login.php:0
+[28-Oct-2015 19:12:29 Asia/Calcutta] PHP   2. Google_Model->offsetGet() /home/rajbdilip/public_html/_treasherlocked/oauth/google/login.php:86
+[28-Oct-2015 19:12:29 Asia/Calcutta] PHP   3. Google_Model->__get() /home/rajbdilip/public_html/_treasherlocked/oauth/google/Google/Model.php:213
+[28-Oct-2015 20:22:25 Asia/Calcutta] PHP Notice:  Undefined index: gender in /home/rajbdilip/public_html/_treasherlocked/oauth/google/Google/Model.php on line 78
+[28-Oct-2015 20:22:25 Asia/Calcutta] PHP Stack trace:
+[28-Oct-2015 20:22:25 Asia/Calcutta] PHP   1. {main}() /home/rajbdilip/public_html/_treasherlocked/oauth/google/login.php:0
+[28-Oct-2015 20:22:25 Asia/Calcutta] PHP   2. Google_Model->offsetGet() /home/rajbdilip/public_html/_treasherlocked/oauth/google/login.php:86
+[28-Oct-2015 20:22:25 Asia/Calcutta] PHP   3. Google_Model->__get() /home/rajbdilip/public_html/_treasherlocked/oauth/google/Google/Model.php:213
+[28-Oct-2015 21:00:26 Asia/Calcutta] PHP Notice:  Undefined index: gender in /home/rajbdilip/public_html/_treasherlocked/oauth/google/Google/Model.php on line 78
+[28-Oct-2015 21:00:26 Asia/Calcutta] PHP Stack trace:
+[28-Oct-2015 21:00:26 Asia/Calcutta] PHP   1. {main}() /home/rajbdilip/public_html/_treasherlocked/oauth/google/login.php:0
+[28-Oct-2015 21:00:26 Asia/Calcutta] PHP   2. Google_Model->offsetGet() /home/rajbdilip/public_html/_treasherlocked/oauth/google/login.php:86
+[28-Oct-2015 21:00:26 Asia/Calcutta] PHP   3. Google_Model->__get() /home/rajbdilip/public_html/_treasherlocked/oauth/google/Google/Model.php:213
+[28-Oct-2015 21:19:25 Asia/Calcutta] PHP Notice:  Undefined index: gender in /home/rajbdilip/public_html/_treasherlocked/oauth/google/Google/Model.php on line 78
+[28-Oct-2015 21:19:25 Asia/Calcutta] PHP Stack trace:
+[28-Oct-2015 21:19:25 Asia/Calcutta] PHP   1. {main}() /home/rajbdilip/public_html/_treasherlocked/oauth/google/login.php:0
+[28-Oct-2015 21:19:25 Asia/Calcutta] PHP   2. Google_Model->offsetGet() /home/rajbdilip/public_html/_treasherlocked/oauth/google/login.php:86
+[28-Oct-2015 21:19:25 Asia/Calcutta] PHP   3. Google_Model->__get() /home/rajbdilip/public_html/_treasherlocked/oauth/google/Google/Model.php:213
+[28-Oct-2015 21:29:47 Asia/Calcutta] PHP Notice:  Undefined index: gender in /home/rajbdilip/public_html/_treasherlocked/oauth/google/Google/Model.php on line 78
+[28-Oct-2015 21:29:47 Asia/Calcutta] PHP Stack trace:
+[28-Oct-2015 21:29:47 Asia/Calcutta] PHP   1. {main}() /home/rajbdilip/public_html/_treasherlocked/oauth/google/login.php:0
+[28-Oct-2015 21:29:47 Asia/Calcutta] PHP   2. Google_Model->offsetGet() /home/rajbdilip/public_html/_treasherlocked/oauth/google/login.php:86
+[28-Oct-2015 21:29:47 Asia/Calcutta] PHP   3. Google_Model->__get() /home/rajbdilip/public_html/_treasherlocked/oauth/google/Google/Model.php:213
+[28-Oct-2015 21:30:55 Asia/Calcutta] PHP Notice:  Undefined index: gender in /home/rajbdilip/public_html/_treasherlocked/oauth/google/Google/Model.php on line 78
+[28-Oct-2015 21:30:55 Asia/Calcutta] PHP Stack trace:
+[28-Oct-2015 21:30:55 Asia/Calcutta] PHP   1. {main}() /home/rajbdilip/public_html/_treasherlocked/oauth/google/login.php:0
+[28-Oct-2015 21:30:55 Asia/Calcutta] PHP   2. Google_Model->offsetGet() /home/rajbdilip/public_html/_treasherlocked/oauth/google/login.php:86
+[28-Oct-2015 21:30:55 Asia/Calcutta] PHP   3. Google_Model->__get() /home/rajbdilip/public_html/_treasherlocked/oauth/google/Google/Model.php:213
+[28-Oct-2015 21:45:45 Asia/Calcutta] PHP Notice:  Undefined index: gender in /home/rajbdilip/public_html/_treasherlocked/oauth/google/Google/Model.php on line 78
+[28-Oct-2015 21:45:45 Asia/Calcutta] PHP Stack trace:
+[28-Oct-2015 21:45:45 Asia/Calcutta] PHP   1. {main}() /home/rajbdilip/public_html/_treasherlocked/oauth/google/login.php:0
+[28-Oct-2015 21:45:45 Asia/Calcutta] PHP   2. Google_Model->offsetGet() /home/rajbdilip/public_html/_treasherlocked/oauth/google/login.php:86
+[28-Oct-2015 21:45:45 Asia/Calcutta] PHP   3. Google_Model->__get() /home/rajbdilip/public_html/_treasherlocked/oauth/google/Google/Model.php:213
+[28-Oct-2015 22:00:56 Asia/Calcutta] PHP Notice:  Undefined index: gender in /home/rajbdilip/public_html/_treasherlocked/oauth/google/Google/Model.php on line 78
+[28-Oct-2015 22:00:56 Asia/Calcutta] PHP Stack trace:
+[28-Oct-2015 22:00:56 Asia/Calcutta] PHP   1. {main}() /home/rajbdilip/public_html/_treasherlocked/oauth/google/login.php:0
+[28-Oct-2015 22:00:56 Asia/Calcutta] PHP   2. Google_Model->offsetGet() /home/rajbdilip/public_html/_treasherlocked/oauth/google/login.php:86
+[28-Oct-2015 22:00:56 Asia/Calcutta] PHP   3. Google_Model->__get() /home/rajbdilip/public_html/_treasherlocked/oauth/google/Google/Model.php:213
+[28-Oct-2015 22:39:35 Asia/Calcutta] PHP Notice:  Undefined index: gender in /home/rajbdilip/public_html/_treasherlocked/oauth/google/Google/Model.php on line 78
+[28-Oct-2015 22:39:35 Asia/Calcutta] PHP Stack trace:
+[28-Oct-2015 22:39:35 Asia/Calcutta] PHP   1. {main}() /home/rajbdilip/public_html/_treasherlocked/oauth/google/login.php:0
+[28-Oct-2015 22:39:35 Asia/Calcutta] PHP   2. Google_Model->offsetGet() /home/rajbdilip/public_html/_treasherlocked/oauth/google/login.php:86
+[28-Oct-2015 22:39:35 Asia/Calcutta] PHP   3. Google_Model->__get() /home/rajbdilip/public_html/_treasherlocked/oauth/google/Google/Model.php:213
+[28-Oct-2015 22:46:17 Asia/Calcutta] PHP Notice:  Undefined index: gender in /home/rajbdilip/public_html/_treasherlocked/oauth/google/Google/Model.php on line 78
+[28-Oct-2015 22:46:17 Asia/Calcutta] PHP Stack trace:
+[28-Oct-2015 22:46:17 Asia/Calcutta] PHP   1. {main}() /home/rajbdilip/public_html/_treasherlocked/oauth/google/login.php:0
+[28-Oct-2015 22:46:17 Asia/Calcutta] PHP   2. Google_Model->offsetGet() /home/rajbdilip/public_html/_treasherlocked/oauth/google/login.php:86
+[28-Oct-2015 22:46:17 Asia/Calcutta] PHP   3. Google_Model->__get() /home/rajbdilip/public_html/_treasherlocked/oauth/google/Google/Model.php:213
+[29-Oct-2015 02:30:28 Asia/Calcutta] PHP Notice:  Undefined index: gender in /home/rajbdilip/public_html/_treasherlocked/oauth/google/Google/Model.php on line 78
+[29-Oct-2015 02:30:28 Asia/Calcutta] PHP Stack trace:
+[29-Oct-2015 02:30:28 Asia/Calcutta] PHP   1. {main}() /home/rajbdilip/public_html/_treasherlocked/oauth/google/login.php:0
+[29-Oct-2015 02:30:28 Asia/Calcutta] PHP   2. Google_Model->offsetGet() /home/rajbdilip/public_html/_treasherlocked/oauth/google/login.php:86
+[29-Oct-2015 02:30:28 Asia/Calcutta] PHP   3. Google_Model->__get() /home/rajbdilip/public_html/_treasherlocked/oauth/google/Google/Model.php:213
+[29-Oct-2015 07:36:54 Asia/Calcutta] PHP Notice:  Undefined index: gender in /home/rajbdilip/public_html/_treasherlocked/oauth/google/Google/Model.php on line 78
+[29-Oct-2015 07:36:54 Asia/Calcutta] PHP Stack trace:
+[29-Oct-2015 07:36:54 Asia/Calcutta] PHP   1. {main}() /home/rajbdilip/public_html/_treasherlocked/oauth/google/login.php:0
+[29-Oct-2015 07:36:54 Asia/Calcutta] PHP   2. Google_Model->offsetGet() /home/rajbdilip/public_html/_treasherlocked/oauth/google/login.php:86
+[29-Oct-2015 07:36:54 Asia/Calcutta] PHP   3. Google_Model->__get() /home/rajbdilip/public_html/_treasherlocked/oauth/google/Google/Model.php:213
+[29-Oct-2015 13:32:26 Asia/Calcutta] PHP Notice:  Undefined index: gender in /home/rajbdilip/public_html/_treasherlocked/oauth/google/Google/Model.php on line 78
+[29-Oct-2015 13:32:26 Asia/Calcutta] PHP Stack trace:
+[29-Oct-2015 13:32:26 Asia/Calcutta] PHP   1. {main}() /home/rajbdilip/public_html/_treasherlocked/oauth/google/login.php:0
+[29-Oct-2015 13:32:26 Asia/Calcutta] PHP   2. Google_Model->offsetGet() /home/rajbdilip/public_html/_treasherlocked/oauth/google/login.php:86
+[29-Oct-2015 13:32:26 Asia/Calcutta] PHP   3. Google_Model->__get() /home/rajbdilip/public_html/_treasherlocked/oauth/google/Google/Model.php:213
+[29-Oct-2015 13:37:34 Asia/Calcutta] PHP Notice:  Undefined index: gender in /home/rajbdilip/public_html/_treasherlocked/oauth/google/Google/Model.php on line 78
+[29-Oct-2015 13:37:34 Asia/Calcutta] PHP Stack trace:
+[29-Oct-2015 13:37:34 Asia/Calcutta] PHP   1. {main}() /home/rajbdilip/public_html/_treasherlocked/oauth/google/login.php:0
+[29-Oct-2015 13:37:34 Asia/Calcutta] PHP   2. Google_Model->offsetGet() /home/rajbdilip/public_html/_treasherlocked/oauth/google/login.php:86
+[29-Oct-2015 13:37:34 Asia/Calcutta] PHP   3. Google_Model->__get() /home/rajbdilip/public_html/_treasherlocked/oauth/google/Google/Model.php:213
+[29-Oct-2015 16:00:57 Asia/Calcutta] PHP Notice:  Undefined index: gender in /home/rajbdilip/public_html/_treasherlocked/oauth/google/Google/Model.php on line 78
+[29-Oct-2015 16:00:57 Asia/Calcutta] PHP Stack trace:
+[29-Oct-2015 16:00:57 Asia/Calcutta] PHP   1. {main}() /home/rajbdilip/public_html/_treasherlocked/oauth/google/login.php:0
+[29-Oct-2015 16:00:57 Asia/Calcutta] PHP   2. Google_Model->offsetGet() /home/rajbdilip/public_html/_treasherlocked/oauth/google/login.php:86
+[29-Oct-2015 16:00:57 Asia/Calcutta] PHP   3. Google_Model->__get() /home/rajbdilip/public_html/_treasherlocked/oauth/google/Google/Model.php:213
+[29-Oct-2015 19:36:32 Asia/Calcutta] PHP Notice:  Undefined index: gender in /home/rajbdilip/public_html/_treasherlocked/oauth/google/Google/Model.php on line 78
+[29-Oct-2015 19:36:32 Asia/Calcutta] PHP Stack trace:
+[29-Oct-2015 19:36:32 Asia/Calcutta] PHP   1. {main}() /home/rajbdilip/public_html/_treasherlocked/oauth/google/login.php:0
+[29-Oct-2015 19:36:32 Asia/Calcutta] PHP   2. Google_Model->offsetGet() /home/rajbdilip/public_html/_treasherlocked/oauth/google/login.php:86
+[29-Oct-2015 19:36:32 Asia/Calcutta] PHP   3. Google_Model->__get() /home/rajbdilip/public_html/_treasherlocked/oauth/google/Google/Model.php:213
+[29-Oct-2015 20:27:28 Asia/Calcutta] PHP Notice:  Undefined index: gender in /home/rajbdilip/public_html/_treasherlocked/oauth/google/Google/Model.php on line 78
+[29-Oct-2015 20:27:28 Asia/Calcutta] PHP Stack trace:
+[29-Oct-2015 20:27:28 Asia/Calcutta] PHP   1. {main}() /home/rajbdilip/public_html/_treasherlocked/oauth/google/login.php:0
+[29-Oct-2015 20:27:28 Asia/Calcutta] PHP   2. Google_Model->offsetGet() /home/rajbdilip/public_html/_treasherlocked/oauth/google/login.php:86
+[29-Oct-2015 20:27:28 Asia/Calcutta] PHP   3. Google_Model->__get() /home/rajbdilip/public_html/_treasherlocked/oauth/google/Google/Model.php:213
+[29-Oct-2015 21:17:31 Asia/Calcutta] PHP Notice:  Undefined index: gender in /home/rajbdilip/public_html/_treasherlocked/oauth/google/Google/Model.php on line 78
+[29-Oct-2015 21:17:31 Asia/Calcutta] PHP Stack trace:
+[29-Oct-2015 21:17:31 Asia/Calcutta] PHP   1. {main}() /home/rajbdilip/public_html/_treasherlocked/oauth/google/login.php:0
+[29-Oct-2015 21:17:31 Asia/Calcutta] PHP   2. Google_Model->offsetGet() /home/rajbdilip/public_html/_treasherlocked/oauth/google/login.php:86
+[29-Oct-2015 21:17:31 Asia/Calcutta] PHP   3. Google_Model->__get() /home/rajbdilip/public_html/_treasherlocked/oauth/google/Google/Model.php:213
+[29-Oct-2015 21:25:33 Asia/Calcutta] PHP Notice:  Undefined index: gender in /home/rajbdilip/public_html/_treasherlocked/oauth/google/Google/Model.php on line 78
+[29-Oct-2015 21:25:33 Asia/Calcutta] PHP Stack trace:
+[29-Oct-2015 21:25:33 Asia/Calcutta] PHP   1. {main}() /home/rajbdilip/public_html/_treasherlocked/oauth/google/login.php:0
+[29-Oct-2015 21:25:33 Asia/Calcutta] PHP   2. Google_Model->offsetGet() /home/rajbdilip/public_html/_treasherlocked/oauth/google/login.php:86
+[29-Oct-2015 21:25:33 Asia/Calcutta] PHP   3. Google_Model->__get() /home/rajbdilip/public_html/_treasherlocked/oauth/google/Google/Model.php:213
+[30-Oct-2015 12:40:22 Asia/Calcutta] PHP Notice:  Undefined index: gender in /home/rajbdilip/public_html/_treasherlocked/oauth/google/Google/Model.php on line 78
+[30-Oct-2015 12:40:22 Asia/Calcutta] PHP Stack trace:
+[30-Oct-2015 12:40:22 Asia/Calcutta] PHP   1. {main}() /home/rajbdilip/public_html/_treasherlocked/oauth/google/login.php:0
+[30-Oct-2015 12:40:22 Asia/Calcutta] PHP   2. Google_Model->offsetGet() /home/rajbdilip/public_html/_treasherlocked/oauth/google/login.php:86
+[30-Oct-2015 12:40:22 Asia/Calcutta] PHP   3. Google_Model->__get() /home/rajbdilip/public_html/_treasherlocked/oauth/google/Google/Model.php:213
+[31-Oct-2015 16:56:57 Asia/Calcutta] PHP Notice:  Undefined index: gender in /home/rajbdilip/public_html/_treasherlocked/oauth/google/Google/Model.php on line 78
+[31-Oct-2015 16:56:57 Asia/Calcutta] PHP Stack trace:
+[31-Oct-2015 16:56:57 Asia/Calcutta] PHP   1. {main}() /home/rajbdilip/public_html/_treasherlocked/oauth/google/login.php:0
+[31-Oct-2015 16:56:57 Asia/Calcutta] PHP   2. Google_Model->offsetGet() /home/rajbdilip/public_html/_treasherlocked/oauth/google/login.php:86
+[31-Oct-2015 16:56:57 Asia/Calcutta] PHP   3. Google_Model->__get() /home/rajbdilip/public_html/_treasherlocked/oauth/google/Google/Model.php:213
+[31-Oct-2015 21:27:02 Asia/Calcutta] PHP Notice:  Undefined index: gender in /home/rajbdilip/public_html/_treasherlocked/oauth/google/Google/Model.php on line 78
+[31-Oct-2015 21:27:02 Asia/Calcutta] PHP Stack trace:
+[31-Oct-2015 21:27:02 Asia/Calcutta] PHP   1. {main}() /home/rajbdilip/public_html/_treasherlocked/oauth/google/login.php:0
+[31-Oct-2015 21:27:02 Asia/Calcutta] PHP   2. Google_Model->offsetGet() /home/rajbdilip/public_html/_treasherlocked/oauth/google/login.php:86
+[31-Oct-2015 21:27:02 Asia/Calcutta] PHP   3. Google_Model->__get() /home/rajbdilip/public_html/_treasherlocked/oauth/google/Google/Model.php:213
+[02-Nov-2015 19:32:18 Asia/Calcutta] PHP Notice:  Undefined index: gender in /home/treasherlocked/public_html/oauth/google/Google/Model.php on line 78
+[05-Nov-2015 19:50:53 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'Google_Auth_Exception' with message 'Error fetching OAuth2 access token, message: 'invalid_grant'' in /home/treasherlocked/public_html/oauth/google/Google/Auth/OAuth2.php:124
+Stack trace:
+#0 /home/treasherlocked/public_html/oauth/google/Google/Client.php(135): Google_Auth_OAuth2->authenticate('4/qInvL9m4zB-fn...')
+#1 /home/treasherlocked/public_html/oauth/google/Google/Google.php(25): Google_Client->authenticate('4/qInvL9m4zB-fn...')
+#2 /home/treasherlocked/public_html/oauth/google/login.php(41): Google->authenticate('4/qInvL9m4zB-fn...')
+#3 {main}
+  thrown in /home/treasherlocked/public_html/oauth/google/Google/Auth/OAuth2.php on line 124

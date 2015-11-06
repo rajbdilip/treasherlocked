@@ -1,5 +1,5 @@
 <?php
-require( $_SERVER['DOCUMENT_ROOT'] . '/ts2/config/consts.php' );
+require( '../../config/consts.php' );
 require( DOCUMENT_ROOT . 'config/db.php' );
 
 require( DOCUMENT_ROOT . 'classes/LoginHelper.php' );
@@ -41,11 +41,11 @@ if (isset($_GET['code'])) {
 	if ( $facebook->IsAuthenticated() ) {
 		
 		/* 	Verify that all of the required scopes have been granted */
-		if ( !$facebook->verifyScopes( unserialize(SCOPES) ) ) {
+		/*if ( !$facebook->verifyScopes( unserialize(SCOPES) ) ) {
 			//var_dump($facebook); exit;
 			header( "Location: " . $facebook->getLoginURL( $facebook->denied_scopes, REREQUEST) );
 			exit;
-		}
+		}*/
 		
 		// All scopes have been granted
 		// Login/Registration can be proceeded

@@ -55,7 +55,7 @@
 								</select>
 								<?php endif; ?>
 								
-								<input type="text" class="text" id="institute" name="institute" placeholder="Institute (optional)" maxlength="100" />
+								<input type="text" class="text" id="institute" name="institute" placeholder="Institute" maxlength="100" />
 								<p class="error" id="e_institute"><span>Institute</span> must be at least 10 characters characters long and can only contain alphabets.</p>
 								
 								<?php if ( isset($_SESSION['location_received']) && !$_SESSION['location_received'] ): ?>
