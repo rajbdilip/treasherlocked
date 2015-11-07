@@ -67,6 +67,7 @@
 								<li><a href="<?php echo SITE_URL; ?>admin/users.php" target="_blank">Registrations</a></li>
 								<li><a href="<?php echo SITE_URL; ?>admin/info.php" target="_blank">User Information</a></li>
 								<li><a href="<?php echo SITE_URL; ?>admin/level_stat.php" target="_blank">Level Stats</a></li>
+								<li><a href="<?php echo SITE_URL; ?>admin/user_gameplay.php" target="_blank">User Gameplay</a></li>
 							</ul>
 						</p>
 						<a href="<?php echo $_SERVER['PHP_SELF']; ?>?logout">Log Out</a>
