@@ -31,7 +31,7 @@
 		if ( is_numeric( $_GET['level'] ) ) {
 		
 			// Check if the level has an URL mask. If it has an URL mask, it should appear instead of level number
-			$url_mask = $ts->getURLMask( $curLevel );
+			$url_mask = $ts->getURLMask( $reqLevel );
 			if ( $url_mask ) {
 				header( 'Location: ' . SITE_URL . 'level/' . $url_mask . '/' );
 				exit;
@@ -172,10 +172,6 @@
 
 							s.setAttribute('data-timestamp', +new Date());
 							(d.head || d.body).appendChild(s);
-
-							function reloadComments() {
-								
-							}
 						})();
 					</script>
 					<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
