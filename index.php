@@ -60,7 +60,7 @@
 			<h2 class="wow animated fadeInDown" data-wow-duration="1s" data-wow-delay="1s">because the hunt is on</h2>
 			<hr id="title_hr" />
 			<p class="wow animated fadeInUp" data-wow-duration="1s" data-wow-delay="1s">7-9 November 2014</p>
-			<a class="btn-effect wow animated fadeIn" data-wow-duration="0.5s" data-wow-delay="1.5s" data-scroll href="<?php echo SITE_URL . 'play/'; ?>">Play Now</a>
+			<a class="btn-effect wow animated fadeIn" data-wow-duration="0.5s" data-wow-delay="1.5s" data-scroll href="<?php echo SITE_URL . 'play/'; ?>">Register Now and Play</a>
 		</div>
 	</section>
 	
